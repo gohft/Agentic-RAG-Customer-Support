@@ -1,0 +1,113 @@
+# to change depending on where ollama hosted
+ollama_url: http://localhost:11434  
+
+# LLM factory
+generator_model:
+  model: ollama_chat/qwen3:8b  # need model provideer ollama_chat since using litellm
+  # params for each call to generate each Q or A
+  num_ctx: 16384  # context window is prompt + chunks, larger to prevent truncation
+  temperature: 0.3  # to add some variety
+  max_tokens: 512 # output length
+
+
+embedding_model: BAAI/bge-large-en-v1.5  # use large model
+
+dataset:
+  answerable_size: 20  # number of Q&A pair to generate RAGAS
+  unanswerable_size: 5  # number of questions unanswerable
+  # sum to 1 for type
+  question_type_distribution:
+    single: 0.4
+    multi_specific: 0.3
+    multi_abstract: 0.3
+
+chunking:
+  chunk_size: 512  # must be within context window of embedding model
+  chunk_overlap: 50  # 10% of chunk size
+
+classification_column: classification
+question_column: user_input 
+response_column: reference
+
+# ollama chat 
+unanswerable_model:
+  model: qwen3:4b-instruct-2507-q4_K_M
+  user_prompt: Generate {NUM_QUERIES} customer support queries now.
+  parameters:
+    temperature: 0.9  # some variety
+    num_predict_per_query: 60
+    # default context window is 4096 is sufficient
+
+  system_prompt: |
+    You are a synthetic data generator for an e-commerce customer support system. 
+    Your task is to generate realistic, diverse customer queries that a company's support team might receive.
+
+    REQUIREMENTS:
+    - Generate exactly {NUM_QUERIES} queries.
+    - Cover topics EXCLUDING refunds and returns (do not generate any queries about refunds, returns, exchanges, or money-back requests).
+    - Cover a broad mix of the following categories, rotating across them:
+      1. Order status & tracking (e.g., "Where is my order?", delayed shipping, tracking number not working)
+      2. Order modification (changing address, canceling before shipment, adding items)
+      3. Product questions (sizing, materials, compatibility, availability, stock)
+      4. Account issues (login problems, password reset, updating email/payment info)
+      5. Payment & billing (failed payments, duplicate charges, promo codes not applying, invoice requests)
+      6. Shipping & delivery (delivery options, international shipping, missing packages, wrong address delivered)
+      7. Product defects/complaints (item arrived damaged, wrong item received, missing parts) — NOTE: these can mention the issue but should not ask for a refund/return; assume the customer wants a replacement, repair, or explanation instead
+      8. Loyalty programs & discounts (points balance, membership benefits, applying coupons)
+      9. General inquiries (store hours, contact info, gift cards, warranty details)
+
+    STYLE:
+    - Each query must be a SIMPLE, single-intent question: one clear ask, directly stated.
+    - Do NOT include backstory, tangents, multiple unrelated questions bundled together, or irrelevant details.
+    - Keep phrasing clear and grammatically clean.
+    - Do not include company names or personally identifiable information.
+    - Do not include an assistant response — only generate the customer-side query.
+    - Spread the {NUM_QUERIES} queries across different categories above (avoid clustering all queries in one category).
+
+    OUTPUT FORMAT:
+    - Respond with a JSON object: {"queries": ["query one", "query two", ...]}.
+    - The "queries" array must contain exactly {NUM_QUERIES} unique strings.
+    - No text outside the JSON object.
+
+email_formatter_question_model:
+  model: qwen3:4b-instruct-2507-q4_K_M
+  parameters:
+    temperature: 0.9  # some variety
+    num_predict: 200 # input is 60, increase to provide context 
+
+  system_prompt: |
+    You are a customer email generator for an e-commerce platform's support evaluation system. 
+    Take a direct, formally-phrased question and rewrite it as a realistic customer support email a real online shopper might send.
+
+    RULES
+    - Write in first person, as the customer, using natural and informal tone.
+    - Preserve the original intent and all key details (order numbers, product names, dates, specifics) from the input question.
+    - Do not alter or invent new factual specifics.
+    - Be concise and include mild emotional context (frustration, urgency, confusion, politeness) if required. 
+    - Exclude greetings (e.g. "Hi", "Hello") and sign-offs (e.g. "Thanks", "Best") entirely — output only the body content itself.
+    - Output ONLY the email body as plain text. No subject line, no explanation, no markdown, no labels.
+
+email_formatter_response_model:
+  model: qwen3:4b-instruct-2507-q4_K_M
+  parameters:
+    temperature: 0.2  # faither transformation
+    num_predict: 200 # response length
+
+  system_prompt: |
+    You are a customer support email writer for an e-commerce platform.
+
+    You will receive two inputs:
+    1. CUSTOMER QUERY: the email the customer sent.
+    2. OFFICIAL RESPONSE: the company's standardized, approved answer to that type of query.
+
+    Your task: Write the body of an official, professional support email that responds directly to the customer's query, 
+    using the content of the official response.
+
+    RULES
+    - Do not copy the official response word for word.
+    - Tailor the response so it directly addresses what the customer asked, while using only the information in the official response as reference.
+    - Refer to details the customer mentioned (e.g., product names, order numbers, dates) and do not invent or infer any details.
+    - If the official response does not cover part of the customer's query, do not fill the gap.
+    - Tone: professional, polite, clear, and concise. Use complete sentences. Avoid slang, emojis, and exclamation marks.
+    - Exclude the greeting (e.g., "Dear ...", "Hi ...") and the sign-off (e.g., "Best regards", "Sincerely", names, signature, company name).
+    - Output ONLY the email body text, and nothing else.
