@@ -1,6 +1,7 @@
 import logging
 import logging.config
 import os
+import sys
 
 LOGGING_CONFIG = {
     "version": 1,
@@ -15,6 +16,7 @@ LOGGING_CONFIG = {
             "formatter": "standard",
             "maxBytes": 5_000_000,  # 5 MB per file
             "backupCount": 3,  # keep 3 old files
+            "encoding": "utf-8", 
         },
         "graph": {
             "class": "logging.handlers.RotatingFileHandler",
@@ -22,6 +24,7 @@ LOGGING_CONFIG = {
             "formatter": "standard",
             "maxBytes": 5_000_000,
             "backupCount": 3,
+            "encoding": "utf-8", 
         },
         "db": {
             "class": "logging.handlers.RotatingFileHandler",
@@ -29,10 +32,12 @@ LOGGING_CONFIG = {
             "formatter": "standard",
             "maxBytes": 5_000_000,
             "backupCount": 3,
+            "encoding": "utf-8", 
         },
         "console": {
             "class": "logging.StreamHandler",  # print to console
             "formatter": "standard",
+            "stream": "ext://sys.stdout",
         },
     },
     "loggers": {
@@ -58,4 +63,7 @@ LOGGING_CONFIG = {
 def setup_logging():
     """Helper function to configure the logging config."""
     os.makedirs("logs", exist_ok=True)
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
     logging.config.dictConfig(LOGGING_CONFIG)

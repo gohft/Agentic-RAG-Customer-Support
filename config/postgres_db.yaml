@@ -13,3 +13,4 @@ table:
   extra_columns:
     - agent_classification
     - agent_response
+    - retrieved_docs  # store document retrieved for eval
