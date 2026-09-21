@@ -236,7 +236,7 @@ class ChromaConnection:
         ]
 
 
-    def query_collection(
+    def query_collection_with_rerank(
         self,
         input_query: str,
         top_k: int,
@@ -245,8 +245,9 @@ class ChromaConnection:
     ) -> list[dict]:
         """
         Retrieve top_k matches of the query using method `get_top_k`, 
-        rerank the top k documents using a cross-encoder,
-        and return the top num_return_docs documents.
+        rerank the top k documents using a more powerful cross-encoder model
+        to get select the more relevant documents.
+        Return the top num_return_docs documents.
 
          Args:
             input_query: Query string to search collection.
@@ -294,7 +295,7 @@ if __name__ == "__main__":
     num_return = 5
     def_name = "refund_return_policy"
 
-    return_docs = db.query_collection(input_query, num_k, num_return,  def_name)
+    return_docs = db.query_collection_with_rerank(input_query, num_k, num_return,  def_name)
 
     rscore = [d["rerank_score"] for d in return_docs]
     cscore = [1-d["distance"] for d in return_docs]
