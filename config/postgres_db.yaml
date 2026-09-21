@@ -1,0 +1,15 @@
+# edit to connect to another postgres db
+database:
+  drivername: postgresql+psycopg
+  host: localhost  
+  port: 5432
+  database: customer_query
+  username: ${oc.env:POSTGRES_DB_USERNAME}
+  password: ${oc.env:POSTGRES_DB_PASSWORD}
+
+table:
+  primary_column: record_index
+  # Empty columns added to every inserted table
+  extra_columns:
+    - agent_classification
+    - agent_response

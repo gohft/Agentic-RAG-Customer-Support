@@ -23,6 +23,13 @@ LOGGING_CONFIG = {
             "maxBytes": 5_000_000,
             "backupCount": 3,
         },
+        "db": {
+            "class": "logging.handlers.RotatingFileHandler",
+            "filename": "logs/db.log",
+            "formatter": "standard",
+            "maxBytes": 5_000_000,
+            "backupCount": 3,
+        },
         "console": {
             "class": "logging.StreamHandler",  # print to console
             "formatter": "standard",
@@ -36,6 +43,11 @@ LOGGING_CONFIG = {
         },
         "graph": {
             "handlers": ["graph", "console"],
+            "level": "INFO",
+            "propagate": False,
+        },
+        "db": {
+            "handlers": ["db", "console"],
             "level": "INFO",
             "propagate": False,
         },
