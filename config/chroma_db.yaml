@@ -1,0 +1,20 @@
+chroma:
+  persist_directory: ./chroma_db # local storage directory
+  distance_metric: cosine # distance metric of collection, can be cosine, l2, ip
+  batch_size: 200  # batch size of docs when creating collection, limit exists
+
+# default collection to create
+default_collection:
+  collection_name: refund_return_policy
+  pdf_path: shoppee_policy.pdf
+  embedding_model: BAAI/bge-large-en-v1.5  # any open source sentence  transformer model
+
+# default chunking of pdf documents to add into collection
+chunking:
+  chunk_size: 512
+  chunk_overlap: 50
+
+reranker:
+  cross_encoder_model: BAAI/bge-reranker-v2-m3  # any open source sentence transformer model
+  batch_size: 16  # number of query,doc pairs to process at once
+  max_length: 768  # max length of chunk + query 
