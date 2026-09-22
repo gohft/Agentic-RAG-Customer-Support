@@ -2,8 +2,9 @@
 ollama_url: http://localhost:11434  
 
 # LLM factory
+# generator model need to be powerful to generate knowledge graph of docs
 generator_model:
-  model: ollama_chat/qwen3:8b  # need model provideer ollama_chat since using litellm
+  model: ollama_chat/qwen3:8b  # need model provider ollama_chat since using litellm
   # params for each call to generate each Q or A
   num_ctx: 16384  # context window is prompt + chunks, larger to prevent truncation
   temperature: 0.3  # to add some variety

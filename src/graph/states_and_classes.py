@@ -14,19 +14,6 @@ class Classification(BaseModel):
         )
     )
 
-
-class AgentResponse(BaseModel):
-    """Final structured response crafted by the refund/return support agent."""
-
-    agent_response: str = Field(
-        description=(
-            "The final response directly addressing the customer's refund or return query. "
-            "Must be professional, polite, clear, and concise, written in complete sentences, "
-            "and grounded only in information found in the retrieved policy documents. "
-            "Do not include a greeting (e.g. 'Dear ...', 'Hi ...') or a sign-off."
-        )
-    )
-
 class SharedState(TypedDict):
     """
     Shared state of the workflow.
@@ -40,15 +27,18 @@ class SharedState(TypedDict):
                         Can be None at intial state before agent provide response.
         retrieved_docs: Documents extracted by LLM using RAG tool to provide a response to query.
                         Can be None at intial state before agent provide response.
-        db_update_status: Status of the db update, success or error. 
+        tool_queries: Search queries used by the LLM for every RAG tool call it made.
+                        Can be None at intial state before agent provide response.
+        db_update_status: Status of the db update, success or error.
                         Can be None at intial state before any update.
         db_update_message: Message of the db update to provide detail of error/success.
-                        Can be None at intial state before any update.        
+                        Can be None at intial state before any update.
     """
     record_id: int
     customer_query: str
     agent_classification: str | None
     agent_response: str | None
     retrieved_docs: str | None
+    tool_queries: list[str] | None
     db_update_status: str | None
     db_update_message: str | None

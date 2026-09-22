@@ -53,9 +53,12 @@ if __name__ == "__main__":
     test_state = {
         "record_id": 1001,
         "customer_query": "How can a buyer submit a refund request via the Shopee mobile app if the item received is in its original sealed condition??",
-        "agent_classification": "agent",
-        "agent_response": "",
-        "retrieved_docs": "",
+        "agent_classification": None,
+        "agent_response": None,
+        "retrieved_docs": None,
+        "tool_queries": None,
+        "db_update_status": None,
+        "db_update_message": None
     }
 
     test_node = ClassifierNode()
