@@ -11,7 +11,7 @@ setup_logging()
 logger = logging.getLogger("graph")
 
 class ClassifierNode:
-    def __init__(self, config_path: str = 'config/classifier.yaml'):
+    def __init__(self, config_path: str = 'config/graph/classifier.yaml'):
         # load config
         self.config_path = config_path
         self.config = load_config(self.config_path)

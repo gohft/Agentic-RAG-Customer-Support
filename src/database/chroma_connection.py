@@ -19,7 +19,7 @@ class ChromaConnection:
     Class to automatically create default collection which stores documents to query.
     Offer flexibility to add new collections and query other collections.
     """
-    def __init__(self, config_path: str = 'config/chroma_db.yaml'):
+    def __init__(self, config_path: str = 'config/database/chroma_db.yaml'):
         # load config
         self.config_path = config_path
         self.config = load_config(self.config_path)

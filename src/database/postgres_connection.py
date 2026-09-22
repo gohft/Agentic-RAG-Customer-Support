@@ -11,7 +11,7 @@ setup_logging()
 logger = logging.getLogger("db")
 
 class PostgresConnection:
-    def __init__(self, config_path: str = 'config/postgres_db.yaml'):
+    def __init__(self, config_path: str = 'config/database/postgres_db.yaml'):
         # load config
         self.config_path = config_path
         self.config = load_config(self.config_path)

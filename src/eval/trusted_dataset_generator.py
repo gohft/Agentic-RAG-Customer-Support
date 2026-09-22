@@ -29,7 +29,7 @@ class TrustedDatasetGenerator:
     Dataset can be used to evaluate RAG. 
     """
 
-    def __init__(self, pdf_filepath: str, config_path: str = 'config/dataset_generator.yaml'):
+    def __init__(self, pdf_filepath: str, config_path: str = 'config/eval/dataset_generator.yaml'):
 
         # load config file to get config in dictionary
         self.pdf_filepath = Path(pdf_filepath)
