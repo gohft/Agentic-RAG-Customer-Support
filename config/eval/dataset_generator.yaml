@@ -14,8 +14,8 @@ generator_model:
 embedding_model: BAAI/bge-large-en-v1.5  # use large model
 
 dataset:
-  answerable_size: 20  # number of Q&A pair to generate RAGAS
-  unanswerable_size: 5  # number of questions unanswerable
+  answerable_size: 50  # number of Q&A pair to generate RAGAS
+  unanswerable_size: 10  # number of questions unanswerable
   # sum to 1 for type
   question_type_distribution:
     single: 0.4
@@ -29,6 +29,7 @@ chunking:
 classification_column: classification
 question_column: user_input 
 response_column: reference
+index_column: record_index
 
 # ollama chat 
 unanswerable_model:

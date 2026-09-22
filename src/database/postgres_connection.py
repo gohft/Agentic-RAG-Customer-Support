@@ -189,15 +189,26 @@ if __name__ == "__main__":
     load_dotenv()
 
     # test 
-    db = PostgresConnection() 
+    # db = PostgresConnection() 
 
-    db.insert_table("eval_dataset.csv", "my_table")
-    logger.info(db.download_table("my_table").head())
+    # db.insert_table("eval_dataset.csv", "my_table")
+    # logger.info(db.download_table("my_table").head())
 
-    ag = {"agent_classification": "human", "agent_response": "no response"}
+    # ag = {"agent_classification": "human", "agent_response": "no response"}
 
-    logger.info(db.update_row("my_table", 1, ag))
-    logger.info(db.download_table("my_table").head())
-    db.delete_table("my_table")
+    # logger.info(db.update_row("my_table", 1, ag))
+    # logger.info(db.download_table("my_table").head())
+    # db.delete_table("my_table")
+    # db.close()
+
+    db = PostgresConnection()
+    TABLE_NAME = "test_dataset"
+
+    # db.insert_table("sample_eval_set.csv", TABLE_NAME)
+    # logger.info(db.download_table(TABLE_NAME).head())
+
+    # df = db.download_table(TABLE_NAME)
+    # df.to_csv("sample_eval_set_updated.csv", index=False)
+
     db.close()
 

@@ -8,7 +8,7 @@ from src.database.postgres_connection import PostgresConnection
 setup_logging()
 logger = logging.getLogger("graph")
 
-def create_database_update_node(db: PostgresConnection, table_name: str):
+def create_database_update_node(db: PostgresConnection, table_name: str = "test_dataset"):
     """
     Factory to create the database update node. 
     Node only updates the state of graph without caring about db connection.
@@ -16,7 +16,8 @@ def create_database_update_node(db: PostgresConnection, table_name: str):
 
     Args:
         db: Instance of connection to PostgreSQL that is connect to db to update.
-        table_name: Name of table to update. Table should contain customer query.
+        table_name: Name of table to update. Table should contain customer queries. 
+                    Default is "test_dataset" which is dataset for evaluating workflow.
     """
 
     def db_update_node(state: SharedState) -> dict:
@@ -51,7 +52,7 @@ def create_database_update_node(db: PostgresConnection, table_name: str):
             raise SQLAlchemyError(result["message"])
 
         # update the state, else no update after all retries failed
-        logger.info("Database status and message updated.")
+        logger.info(f"Database status and message updated for record {state["record_id"]}.")
         return {"db_update_status": result["status"], "db_update_message": result["message"]}
 
     # return the function

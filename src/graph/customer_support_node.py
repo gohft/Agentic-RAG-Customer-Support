@@ -126,7 +126,7 @@ class CustomerSupportNode:
             for tc in m.tool_calls
         ]
 
-        logger.info("Customer support agent response to query done.")
+        logger.info(f"Customer support agent response to query done for record {state["record_id"]}.")
 
         # update state with response and docs used
         return {

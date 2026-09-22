@@ -44,7 +44,7 @@ class ClassifierNode:
             logger.error(f"Error occured: {e}")
             raise 
 
-        logger.info("Classification of query done.")
+        logger.info(f"Classification of query done for record {state["record_id"]}.")
         return {"agent_classification": result.target}
      
 

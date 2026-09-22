@@ -68,6 +68,9 @@ class TrustedDatasetGenerator:
         self.question_column = self.config["question_column"]
         self.response_column = self.config["response_column"]
 
+        # set index 
+        self.index_column = self.config["index_column"]
+
         # config to convert to email format 
         self.email_formatter_question_model_cfg = self.config["email_formatter_question_model"]
         self.email_formatter_response_model_cfg = self.config["email_formatter_response_model"]
@@ -144,7 +147,7 @@ class TrustedDatasetGenerator:
             **self.generator_model_config,
         )
 
-        logger.info("All variables of generator LLM")
+        logger.info("All variables of generator LLM:")
         logger.info(vars(generator_llm))  
         return generator_llm
 
@@ -324,7 +327,7 @@ class TrustedDatasetGenerator:
 
         # add index in first column
         final_df = converted_df.copy()
-        final_df.insert(0, "record_index", range(1, len(final_df) + 1))
+        final_df.insert(0, self.index_column, range(1, len(final_df) + 1))
 
         logger.info("Generation of dataset completed.")
 
@@ -341,7 +344,7 @@ if __name__ == "__main__":
     # generate eval dataset
     output_df = gen.generate_dataset()
     print(output_df.info())
-    output_df.to_csv('eval_dataset.csv', index=False)
+    output_df.to_csv('dataset50.csv', index=False)
 
     # qna_df = gen.generate_ragas_questions()
 
