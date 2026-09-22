@@ -138,8 +138,10 @@ class PostgresConnection:
         {column: value} pair in `updates`. Every key must be an existing column
         of the table (the index column itself cannot be changed).
  
-        Returns {"status": "success" | "not_found" | "error", "message": str}
-        and never raises, so it is safe to call from a LangGraph node.
+        Returns {"status": "success" | "sqlalchemy error" | "error", "message": str}
+        and never raises the error. Node will use the status to decide on update state.
+        'error` is when table/column/index missing.
+         `sqlalchemy error` is when insertion error.
         """
         
         if not self._table_exists(table_name):
@@ -175,7 +177,7 @@ class PostgresConnection:
                 "message": f"Updated row with {self.primary_column} as {index} in table {table_name}.",
             }
         except SQLAlchemyError as e:
-            return {"status": "error", "message": f"Database error: {e}"}
+            return {"status": "sqlalchemy error", "message": f"SQLAlchemy error: {e}"}
 
     def close(self):
         """Close connection to release resources."""
@@ -199,33 +201,3 @@ if __name__ == "__main__":
     db.delete_table("my_table")
     db.close()
 
-    # ---- LangGraph usage: wrap update_row in a node -------------------------
-
-# update is dictionary 
-# from typing import Any, Dict, TypedDict
-# from langgraph.graph import StateGraph, END
-
-# db = database_connection()
-
-# class State(TypedDict, total=False):
-#     table_name: str
-#     index: int
-#     updates: Dict[str, Any]
-#     db_result: Dict[str, str]
-
-# def update_row_node(state: State) -> dict:
-#     result = db.update_row(state["table_name"], state["index"], state["updates"])
-#     return {"db_result": result}
-
-# graph = StateGraph(State)
-# graph.add_node("update_row", update_row_node)
-# graph.set_entry_point("update_row")
-# graph.add_edge("update_row", END)
-# app = graph.compile()
-
-# out = app.invoke({
-#     "table_name": "my_table",
-#     "index": 0,
-#     "updates": {"value1": "a", "value2": "b"},
-# })
-# print(out["db_result"])
