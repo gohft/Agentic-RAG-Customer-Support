@@ -4,7 +4,7 @@ model: qwen3:4b-instruct-2507-q4_K_M
 # key value pair for ChatOllama
 parameters:
   temperature: 0   # deterministic classifier
-  num_ctx: 200       # context window, question is up to 200
+  num_ctx: 512       # context window, question is up to 200
   num_predict: 10   # max output tokens, two choices only
 
 system_prompt: |

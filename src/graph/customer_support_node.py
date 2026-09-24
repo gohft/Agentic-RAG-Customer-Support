@@ -27,6 +27,9 @@ class CustomerSupportNode:
         self.config = load_config(self.config_path)
         logger.info(f"Configuration loaded from {self.config_path}")
 
+        # separator used to join retrieved docs into a single string
+        self.doc_separator = self.config["doc_separator"]
+
         # RAG tool pre-defined values
         rag_cfg = self.config["rag"]
         self.collection_name = rag_cfg["collection_name"]
@@ -90,13 +93,20 @@ class CustomerSupportNode:
                 return "No relevant documents found."
 
             # combine all the documents to string to return
-            return "\n\n".join(d["text"] for d in docs)
+            return self.doc_separator.join(d["text"] for d in docs)
 
         return search_refund_return_policy
 
     def __call__(self, state: SharedState) -> dict:
         """
         Make class callable for class to behave like function.
+
+        Invoke the LLM to response to the customer query. LLM has access to RAG tool.
+        Update the following attributes in state of graph:
+        i) agent_response: response to customer query 
+        ii) retrieved_docs: retrieved documents from RAG tool concatenated to one long string,
+        separated by a separated to denote distinct docs or None is RAG tool not called. 
+        iii) tool_queries: list of input query string LLM used for RAG tool, None if no tool call.
         """
         try:
             # pass customer query to LLM
@@ -113,18 +123,20 @@ class CustomerSupportNode:
         # since all tool call result are used to generate final response
         # might retrieved repeated docs
         # document under content key
-        retrieved_docs = "\n\n".join(
+        # set to None if empty string
+        retrieved_docs = self.doc_separator.join(
             m.content for m in result["messages"] if isinstance(m, ToolMessage)
-        )
+        ).strip() or None
 
         # collect the search query used for every tool call the agent made,
         # in the order the calls were issued
+        # set to None if no tool call used
         tool_queries = [
             tc["args"]["query"]
             for m in result["messages"]
             if isinstance(m, AIMessage)
             for tc in m.tool_calls
-        ]
+        ] or None
 
         logger.info(f"Customer support agent response to query done for record {state["record_id"]}.")
 

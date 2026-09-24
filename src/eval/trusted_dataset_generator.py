@@ -3,6 +3,7 @@ import logging
 
 import pandas as pd
 import litellm
+import torch
 import ollama
 from pydantic import BaseModel, Field
 from ragas.llms import llm_factory
@@ -18,7 +19,7 @@ from src.utils.load_config import load_config
 from src.utils.pdf_processing import chunk_pdf
 
 setup_logging()
-logger = logging.getLogger("dataset_generator")
+logger = logging.getLogger("eval")
 
 class UnanswerableQueryList(BaseModel):
     queries: list[str] = Field(description="Possible customer queries excluding topics on refunds and returns.")
@@ -48,6 +49,9 @@ class TrustedDatasetGenerator:
         # models
         self.generator_model_config = self.config["generator_model"]
         self.embedding_model = self.config["embedding_model"]
+
+        # set device for huggingface
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
 
         # dataset
         dataset_cfg = self.config["dataset"]
@@ -152,7 +156,12 @@ class TrustedDatasetGenerator:
         return generator_llm
 
     def generate_ragas_questions(self) -> pd.DataFrame:
-        """Generate golden dataset Q&A to evaluate RAG using RAGAS testset generator."""
+        """
+        Generate golden dataset Q&A to evaluate RAG using RAGAS testset generator.
+        Question generated follows a stipulated distribution. 
+        Set the classification as 'agent'.
+        Q&A pairs needs human verification to be used as test set for evaluation.
+        """
 
         # set the generator LLM
         generator_llm = self._set_generator_LLM()
@@ -163,7 +172,7 @@ class TrustedDatasetGenerator:
         embeddings = HuggingFaceEmbeddings(
             model=self.embedding_model,
             use_api=False,
-            device="cuda",  #  use cuda
+            device=self.device,
         )
 
         embeddings.is_async = True
@@ -209,6 +218,7 @@ class TrustedDatasetGenerator:
     def get_unanswerable_df(self) -> pd.DataFrame:
         """
         Use LLM model to generate unanswerable questions in dataframe.
+        Set the class as 'human'.
         """
         num_of_qns = self.unanswerable_size
 

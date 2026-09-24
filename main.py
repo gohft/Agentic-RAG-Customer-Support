@@ -16,6 +16,7 @@ load_dotenv()
 setup_logging()
 logger = logging.getLogger("graph")
 
+# table name of test dataset containing customer query in postgreSQL DB
 TABLE_NAME = "test_dataset"
 
 def main():
@@ -24,6 +25,7 @@ def main():
     Log each execution of workflow in LangFuse for observability.
     """
     # initialize compiled graph
+    # test_dataset.csv already loaded as a table in database
     postgres = PostgresConnection()
     chroma = ChromaConnection()
     graph = build_graph(postgres, chroma)
@@ -57,7 +59,7 @@ def main():
                 # set the state for each query with customer query
                 state: SharedState = {
                     "record_id": record_id,
-                    "customer_query": row["user_input"],
+                    "customer_query": row["user_input_email_format"],
                     "agent_classification": None,
                     "agent_response": None,
                     "retrieved_docs": None,

@@ -122,6 +122,7 @@ class PostgresConnection:
             logger.info(f"Table '{table_name}' does not exist.")
             return 
 
+        logger.info(f"Downloading table '{table_name}' ...")
         return pd.read_sql_table(table_name, self.engine)
 
 
@@ -201,14 +202,13 @@ if __name__ == "__main__":
     # db.delete_table("my_table")
     # db.close()
 
+    # insert test dataset to table
     db = PostgresConnection()
     TABLE_NAME = "test_dataset"
 
-    # db.insert_table("sample_eval_set.csv", TABLE_NAME)
-    # logger.info(db.download_table(TABLE_NAME).head())
-
-    # df = db.download_table(TABLE_NAME)
-    # df.to_csv("sample_eval_set_updated.csv", index=False)
+    db.delete_table(TABLE_NAME)
+    db.insert_table("test_dataset.csv", TABLE_NAME)
+    logger.info(db.download_table(TABLE_NAME).head())
 
     db.close()
 

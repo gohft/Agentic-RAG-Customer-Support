@@ -10,7 +10,7 @@ LOGGING_CONFIG = {
         "standard": {"format": "%(asctime)s | %(name)s | %(levelname)s | %(message)s"}
     },
     "handlers": {
-        "dataset_generator": {
+        "eval": {
             "class": "logging.handlers.RotatingFileHandler",
             "filename": "logs/eval.log",
             "formatter": "standard",
@@ -41,8 +41,8 @@ LOGGING_CONFIG = {
         },
     },
     "loggers": {
-        "dataset_generator": {
-            "handlers": ["dataset_generator", "console"],
+        "eval": {
+            "handlers": ["eval", "console"],
             "level": "INFO",
             "propagate": False,
         },
