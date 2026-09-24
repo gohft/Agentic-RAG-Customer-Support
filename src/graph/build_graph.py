@@ -50,8 +50,43 @@ def build_graph(postgres: PostgresConnection, chroma: ChromaConnection) -> Compi
 
     # edges
     builder.add_edge(START, "classifier")
-    builder.add_conditional_edges("classifier", check_classification)
+    builder.add_conditional_edges(
+        "classifier",
+        check_classification,
+        #path_map={"human": "database_update", "agent": "customer_support"},  # add path map to be reflected in diagram
+    )
+
     builder.add_edge("customer_support", "database_update")
     builder.add_edge("database_update", END)
 
     return builder.compile()
+
+
+from pathlib import Path
+
+
+def draw_graph_image(
+    graph: CompiledStateGraph,
+    output_path: str = "workflow.png",
+):
+    """
+    Render a compiled LangGraph StateGraph to a PNG image showing
+    start/end, all nodes, and edges (including conditional edges decisions).
+
+    Args:
+        graph: The CompiledStateGraph of the workflow to render.
+        output_path: The path to save the graoh image to.
+    """
+    png_bytes = graph.get_graph().draw_mermaid_png()
+    path = Path(output_path)
+    path.write_bytes(png_bytes)
+
+if __name__ == "__main__":
+    from dotenv import load_dotenv
+    load_dotenv()
+    postgres = PostgresConnection()
+    chroma = ChromaConnection()
+    graph = build_graph(postgres, chroma)
+
+    # draw the workflow
+    draw_graph_image(graph)
