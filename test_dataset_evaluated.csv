@@ -1,0 +1,1914 @@
+record_index,user_input,reference_contexts,reference,persona_name,query_style,query_length,synthesizer_name,classification,user_input_email_format,reference_email_format,agent_classification,agent_response,retrieved_docs,classification_score,faithfulness_score,correctness_score
+2,How can a Mall Buyer return an item via Singpost according to Shopee's refund and return policy?,"['(ii) Shopee (via the delivery agent) reserves the right to refuse the delivery of Alcohol if the \nAlcohol Buyer and/or the Recipient appears intoxicated or is unable to provide valid photo \nidentification for age verification purposes. \n  \n20.5 Each Alcohol Buyer and Alcohol Seller severally agrees to indemnify, defend and hold \nharmless Shopee, and its shareholders, subsidiaries, Affiliates, directors, officers, agents, \nco-branders or other partners, and employees (collectively, the ""Indemnified Parties"") from \nand against any and all claims, actions, proceedings, and suits and all related liabilities, \ndamages, settlements, penalties, fines, costs and expenses (including, without limitation, \nany other dispute resolution expenses) incurred by any Indemnified Party arising out of or \nrelating to: (a) any inaccuracy or breach of its representations in Section 20.2 and/or \nSection 20.3 (as applicable); and (b) its breach of any law or any rights of a third party. \n   \n1. Shopee Mall Refunds and Return Policy \n  \n1.1 Mall Buyer may apply for a refund and/or return of an item purchased on Shopee Mall (a \n'Mall Item') by completing a return/refund request and returning the Mall Item as \ndescribed below at any time within fifteen (15) calendar days after the date that Mall Item \nwas first made available for Mall Buyer to take delivery (the 'Free Return Period'). Usually, \nthat date would be the date Mall Buyer received delivery of the Mall Item; however, if Mall \nBuyer did not receive the Mall Item because of Mall Buyer's absence from the destination \naddress or Mall Buyer's failure to input the proper destination address, that date would be \nthe date on which delivery attempt was first made. \n  \n1.2 Please note that Mall Buyer must ship the Mall Item to a location designated by Shopee \nwithin ten (10) calendar days after the return request is raised and in any event no later \nthan the last day of the Free Return Period. Mall Items that are returned may be returned via \nSingpost, PopStation or a courier designated by Shopee by no later than the last day of the \nFree Return Period. Shopee reserves the right to reject any application where the Mall Item \nwas dispatched later than ten (10) calendar days after the return request is raised. \n  \n1.3 The approval of your request for refund and return will be made by Shopee in its sole']","A Mall Buyer can return an item via Singpost by shipping the Mall Item to a location designated by Shopee within ten (10) calendar days after the return request is raised and no later than the last day of the Free Return Period. The Mall Item may be returned via Singpost, PopStation, or a courier designated by Shopee by no later than the last day of the Free Return Period.",Shopee Seller Support Specialist,WEB_SEARCH_LIKE,MEDIUM,single_hop_specific_query_synthesizer,agent,"I have purchased a product called ""Premium Wireless Earbuds"" from Shoppe Mall and have received it on Sept 15, 2026. The item arrived damaged, and I want to return it. I've already contacted customer service, but I'm not sure how to proceed with returning it via Singpost as per Shopee's refund and return policy. Can you please guide me on the correct steps to return the item using Singpost and what documents or details I need to provide?","To return your item via Singpost, you must ship the ""Premium Wireless Earbuds"" to a designated location set by Shopee. The return must be completed within ten (10) calendar days of raising your return request and no later than the last day of the Free Return Period. You may use Singpost, PopStation, or a courier designated by Shopee for the return, as long as it is done by the end of the Free Return Period.",agent,"If your Premium Wireless Earbuds arrived damaged during delivery, you can proceed with a return under the ""Received damaged item(s)"" reason. Here are the steps to follow:
+
+1. Take clear pictures or videos of the damaged item, including the external and internal packaging, to document the condition upon receipt.
+2. Submit the evidence and details to Shopee Customer Service through the Shopee mobile app when raising your Return/Refund request.
+3. Select the appropriate reason for the damage (e.g., ""Other types of damage"" or ""Product is defective or does not work"") and provide a description of the damage.
+4. Shopee will review your request and, if approved, guide you on the next steps, which may include returning the item via Singpost or receiving a refund without returning the product.
+
+Note: You do not need to return the item in original/sealed condition if it is damaged during delivery. Shopee will process your request based on the damage reported and the evidence provided. If the item is not usable due to the damage, a full refund may be issued without requiring a return.","Note 
+There will be differences in the types of supporting documents required for each 
+Return/Refund request. 
+ 
+Evidence is not required for a non-receipt case under Parcel not delivered. 
+ 
+If you have selected Received damaged item(s) you will be able to choose from 5 
+Return/Refund reasons below:  
+ 
+Return/Refund Reason: Spilled liquid/contents 
+Definition: Item received has obvious leakage of liquid/contents, causing the 
+internal/external packaging to be wet/soiled and/or the item unsuitable for use. 
+ 
+Return/Refund Reason: Scratch/dents 
+Definition: Item received has minor physical defects such as scratches and dents but the 
+item is still functioning as intended / described on the listing. 
+ 
+Return/Refund Reason: Shattered products 
+Definition: Item received has broken into multiple pieces and can no longer be used. 
+ 
+Return/Refund Reason: Other types of damage 
+Definition: Item received has other forms of damage that are different from scratch/dents, 
+outer packaging damaged, shattered/broken, spilled liquid/contents. 
+ 
+Return/Refund Reason: Product is defective or does not work 
+Definition: Item received does not work as intended / described on the listing.
+
+[DOCUMENT BREAK]
+
+7. What should I do if I receive my order but it is damaged beyond return and my 
+Return/Refund request has been approved by Shopee? 
+  
+If Shopee has approved the Return/Refund request subject to the review of the returned 
+items, but the parcel received is badly damaged and cannot be returned (e.g. shattered 
+glass, soaking wet packages, badly cracked furniture, etc.), please follow the steps below: 
+  
+1. Take pictures/videos of the parcel received 
+• Make sure the internal/external packaging used for the order is photographed along 
+with the damaged item received. 
+• This helps our Shopee team better understand the condition of the item received. 
+Examples of supporting pictures are provided below:  
+2. Submit to Customer Service 
+• You may contact Customer Service and provide all the details required.  
+  
+  
+8. Can I request for an exchange? 
+Shopee does not offer direct exchange between buyers and sellers. If you are not satisfied 
+with the product(s) received, you can raise a Return/Refund request. 
+  
+The seller may offer a full or partial refund before you return the product. If the seller offers 
+a full refund or if you accept the seller's partial refund offer, you will not be required to 
+return the product. 
+   
+To discuss or modify the refund amount proposed by the seller: 
+1. Select Discuss. 
+2. Select Counter. 
+3. At the Counter Refund page, insert your proposed counter refund amount. 
+4. Select Confirm.
+
+[DOCUMENT BREAK]
+
+e) The Item received is an expired product; 
+f) The Item received is a counterfeit product; 
+g) The Item received has physical damage that was sustained during the delivery process 
+(e.g shattered/broken Items, scratches/dents, damaged outer packaging, spilled 
+liquid/contents); 
+h) By way of private agreement with Seller and Seller must send his/her confirmation to 
+Shopee confirming such agreement; and 
+i) The item is in its original/sealed condition provided that: 
+  
+i. The Items listed by Shopee at [Return Refund] I want to return item in original/sealed 
+condition shall not be eligible. 
+  
+ii. Refunds and/or returns of Mall Items shall be governed by the Shopee Mall Terms of 
+Service in addition to this Refunds and Return Policy; 
+  
+iii. Where applicable, Items must be returned to Seller: (a) in original packaging, (b) with 
+original tags/labels attached, (c) new, sealed, and with no signs of usage (i.e. no stains, 
+damages or signs of washing), (d) containing all Items, as sent by Seller, including all free 
+gifts; and (e) in compliance with any other criteria determined by Shopee from time to time; 
+and 
+  
+iv. Such refund and/or return is subject to conditions and exclusions, as determined by 
+Shopee from time to time, at its sole discretion. 
+Buyer’s application must be submitted via the Shopee mobile app in accordance with 
+Section 2.1 or 2.2 (as the case may be). 
+  
+In the event where Buyer has commenced legal action against Seller, Buyer may provide 
+the formal notification from the appropriate authority to Shopee to request Shopee to 
+continue to hold the purchase monies until a formal determination is available. Shopee 
+will, at its sole and absolute discretion, determine whether it is necessary to continue to 
+hold such purchase monies.
+
+[DOCUMENT BREAK]
+
+7. Communication Between Buyer and Seller 
+  
+Shopee encourages Users to communicate with each other in the event where a problem 
+arises in a transaction. As Shopee is a platform for Users to conduct trading, Buyer should 
+contact Seller directly for any issue relating to the Item purchased. 
+ 
+ [Return Refund] I want to return item in original/sealed condition 
+Formerly known as Change of Mind, buyers may request for returns due to a change in their 
+need or preference, without any error, fault or defect in the product purchased. Learn more 
+about our ‘Return Item in Original/Sealed Condition’ policy below.  
+Note 
+• If you are looking for Return/Refund due to other reasons (e.g. 
+faulty/damaged/missing deliveries, etc.), you may raise a Return/Refund request or 
+contact our Customer Support team for further assistance. 
+• Items purchased on bundle deals may not be returned partially and must be 
+returned as a complete bundle. 
+ 
+ 
+1. Return Conditions 
+  
+All returns requested under “I want to return item in original/ sealed condition” are subject 
+to conditions and exclusions as determined by Shopee from time to time, at its sole 
+discretion.  
+  
+The item(s): 
+• in its original packaging (special packaging only*) 
+• in complete condition and have no missing parts (with original free gifts, accessories 
+included) 
+• have its original tags/labels attached and its serial numbers present (if applicable)
+
+[DOCUMENT BREAK]
+
+• Select the reason for the request, product and quantity of items to be returned (if 
+applicable).  
+Complete the Return/Refund application with relevant evidence and description. 
+Partial Return 
+If you wish to return only a part of your order, a partial quantity, you can adjust the quantity 
+by adjusting the number of items to return on the Select Product page when you initiate the 
+Return/Refund request.  
+ 
+  
+You may adjust the number of items to return for the scenarios below. 
+  
+• You can select (a) the entire bundle OR (b) part of the bundle items. 
+• You can select (a) the entire set of add-on deals OR (b) part of the add-on deal(s). 
+• You can select (a) the entire Purchase with Gift, including both the main item and 
+the gift, OR return part of the main items only, provided that the corresponding gift is 
+included in the return.  
+ 
+ 
+Please note that for the following Return Reson, partial returns are not allowed as the entire 
+order must be returned:  
+ 
+ 
+• Return in original/sealed condition  
+There may be two solutions available, depending on your Return/Refund reason:  
+ 
+ 
+• Return and Refund (Find out more about how to return your items) 
+• Refund Only (you may enter your preferred Refund Amount *capped at your total 
+payment amount for the order*) 
+  
+*Shopee will review the request and determine the appropriate solution.",1,1.0,0.7780784918771241
+3,What are the specific conditions for returning perishable Mall Items on Shopee?,"['condition of the Mall Item that was returned. Mall Buyer acknowledges and agrees that \nShopee's decision is final, conclusive and binding, and covenants and agrees that it will not \nbring suit or otherwise assert any claim against Shopee or its affiliates in relation to such \ndecision. The Mall Item that was returned must be, at a minimum, in the following \nconditions: \n'    Complete, with all items included in the purchase; and \n'    With original product packaging and price tags. \n  \nIf any additional conditions apply to a certain Mall Item, Shopee will inform you via the Site, \nSMS or email. The conditions for the Mall Items subject to return are referred to as the \n'Return Conditions' . \n  \n1.4 In addition, please note that certain types of Mall Items may be excluded from the \nRefunds and Return Policy described in these Shopee Mall Terms of Service, including but \nnot limited to: \n  \n'    Electronics; \n'    Digital goods, such as mobile top-up cards, audio or video recording or software; \n'    Goods that are perishable or are temperature-sensitive or may otherwise deteriorate or \nexpire rapidly, such as groceries, ice cream;  \n'   Goods that are not suitable for return due to health protection or hygienic reasons, such \nas cosmetics, swimwear and underwear; and \n'    Items that are under warranty from the seller, manufacturer and/or distributor, such as \nphones, laptops, monitors and others. \n  \n  \nIf any Mall Item is excluded from the Refunds and Return Policy described in these Shopee \nMall Terms of Service, Shopee will make reasonable efforts to publish that information on \nour Site or otherwise inform the Mall Buyers; however, please note that our policies may \nchange without notice at any time and certain Mall Items may be subject to exclusion after \nMall Buyer has purchased them. Any Mall Item that is subject to exclusion from the']","Perishable Mall Items are excluded from the Refunds and Return Policy described in these Shopee Mall Terms of Service. Goods that are perishable or are temperature-sensitive or may otherwise deteriorate or expire rapidly, such as groceries, ice cream, are subject to exclusion from the return policy.",Shopee Payment Specialist,PERFECT_GRAMMAR,MEDIUM,single_hop_specific_query_synthesizer,agent,"I ordered a set of perishable items like fresh fruits and dairy products from Shopee Mall which were delivered on Sept 10, 2026. I did not like the products after tasting them hence, I'd like to know what the specific return conditions are for such items'like whether a return is allowed at all, if there's a time window, or if any form of compensation is offered. Can you please clarify the policy for returning perishable mall items on Shopee?","Perishable items, including fresh fruits and dairy products, are excluded from the return policy under Shopee Mall Terms of Service. Items that are perishable or temperature-sensitive, such as groceries or ice cream, are not eligible for return or refund once delivered and consumed. Therefore, no return or compensation is available for such items after consumption.",agent,"Perishable items such as fresh fruits and dairy products are excluded from the Refunds and Return Policy on Shopee Mall. This means that returns or refunds for such items are not allowed under the policy. Additionally, items that are temperature-sensitive or may deteriorate rapidly, including groceries and ice cream, are specifically excluded from the return and refund policy. Therefore, you are not eligible to return the perishable items you received on September 10, 2026.","condition of the Mall Item that was returned. Mall Buyer acknowledges and agrees that 
+Shopee’s decision is final, conclusive and binding, and covenants and agrees that it will not 
+bring suit or otherwise assert any claim against Shopee or its affiliates in relation to such 
+decision. The Mall Item that was returned must be, at a minimum, in the following 
+conditions: 
+•    Complete, with all items included in the purchase; and 
+•    With original product packaging and price tags. 
+  
+If any additional conditions apply to a certain Mall Item, Shopee will inform you via the Site, 
+SMS or email. The conditions for the Mall Items subject to return are referred to as the 
+“Return Conditions” . 
+  
+1.4 In addition, please note that certain types of Mall Items may be excluded from the 
+Refunds and Return Policy described in these Shopee Mall Terms of Service, including but 
+not limited to: 
+  
+•    Electronics; 
+•    Digital goods, such as mobile top-up cards, audio or video recording or software; 
+•    Goods that are perishable or are temperature-sensitive or may otherwise deteriorate or 
+expire rapidly, such as groceries, ice cream;  
+•   Goods that are not suitable for return due to health protection or hygienic reasons, such 
+as cosmetics, swimwear and underwear; and 
+•    Items that are under warranty from the seller, manufacturer and/or distributor, such as 
+phones, laptops, monitors and others. 
+  
+  
+If any Mall Item is excluded from the Refunds and Return Policy described in these Shopee 
+Mall Terms of Service, Shopee will make reasonable efforts to publish that information on 
+our Site or otherwise inform the Mall Buyers; however, please note that our policies may 
+change without notice at any time and certain Mall Items may be subject to exclusion after 
+Mall Buyer has purchased them. Any Mall Item that is subject to exclusion from the
+
+[DOCUMENT BREAK]
+
+Refunds and Return Policy described in these Shopee Mall Terms of Service is referred to 
+as an “Excluded Item” . 
+  
+1.5 Shopee reserves the right to (a) add to or otherwise amend the list of Excluded Items 
+and/or the Return Conditions and (b) amend, terminate or suspend the Refunds and Return 
+Policy described in these Shopee Mall Terms of Service (including the length of the Free 
+Return Period), in each case, at any time in its sole discretion. 
+  
+1.6 Shopee may reject in its sole discretion any returned Mall Item (and the related request 
+for refund and return): 
+  
+•    that is an Excluded Item; 
+•    that does not meet the Return Conditions; or 
+•    if the Mall Item was returned in a manner that does not comply with Section 1.2 above. 
+  
+Please note that Shopee’s determination will be based on the list of terms of conditions in 
+effect at the time of such determination (including the list of Excluded Items, the Return 
+Conditions and the Free Return Period), and therefore pursuant to Section 1.5 above, such 
+list of Excluded Items, the Return Conditions and/or the length of Free Return Period may 
+be different from those in effect at the time Mall Buyer has completed the refund/return 
+request and/or returned the Mall Item. 
+  
+If Shopee rejects a request for refund and return, Shopee will organize the delivery of such 
+Mall Item to the relevant Mall Buyer’s address to which the Mall Item was originally 
+delivered, and Shopee shall be entitled to seek compensation from such Mall Buyer for any 
+costs incurred in delivering the Mall Item back to such Mall Buyer. 
+  
+1.7 Shopee reserves the right to terminate a User’s access to Shopee Mall if it suspects any 
+abuse of the Refunds and Return Policy described in these Shopee Mall Terms of Service 
+and, if Shopee deems appropriate, may also impose penalties (including recovery of any 
+fees or charges incurred as a consequence of such abuse).
+
+[DOCUMENT BREAK]
+
+1.8 The Refunds and Return Policy for Mall Items described in these Shopee Mall Terms of 
+Service are in addition to the general Refunds and Return Policy described in the Refunds 
+and Return Policy .If there is any inconsistency, the Refunds and Return Policy described in 
+these Shopee Mall Terms of Service will prevail in respect of Mall Items. 
+  
+ Refunds and Return Policy 
+1. Application for Returns/Refunds 
+  
+Subject to the terms and conditions in this Refunds and Return Policy and the Terms of 
+Service, Buyer may apply for return of the purchased items (“Item”) and/or refund. 
+  
+For the avoidance of doubt, an application for a refund and/or return may be made whether 
+prior to or after the expiry of the Shopee Guarantee Period as stated in the Terms of Service. 
+Users may communicate with each other privately to resolve their differences prior, during 
+or after using Shopee Guarantee. 
+  
+2. Application for the Return of an Item 
+  
+Buyer may only apply for 
+(i) the refund of the Item where such Item has not been received by Buyer (“Unreceived 
+Items”), or 
+(ii) the refund and/or return of an Item received by Buyer (“Received Items”) in the following 
+circumstances: 
+a) Buyer received an empty and/or suspicious parcel; 
+b) The Item received was incomplete (missing quantity or accessories); 
+c) Seller has delivered an Item that does not match the agreed specification (e.g. wrong 
+size, colour, etc.) to Buyer; 
+d) The Item was defective and/or faulty (e.g. does not work as intended);
+
+[DOCUMENT BREAK]
+
+(ii) Shopee (via the delivery agent) reserves the right to refuse the delivery of Alcohol if the 
+Alcohol Buyer and/or the Recipient appears intoxicated or is unable to provide valid photo 
+identification for age verification purposes. 
+  
+20.5 Each Alcohol Buyer and Alcohol Seller severally agrees to indemnify, defend and hold 
+harmless Shopee, and its shareholders, subsidiaries, Affiliates, directors, officers, agents, 
+co-branders or other partners, and employees (collectively, the ""Indemnified Parties"") from 
+and against any and all claims, actions, proceedings, and suits and all related liabilities, 
+damages, settlements, penalties, fines, costs and expenses (including, without limitation, 
+any other dispute resolution expenses) incurred by any Indemnified Party arising out of or 
+relating to: (a) any inaccuracy or breach of its representations in Section 20.2 and/or 
+Section 20.3 (as applicable); and (b) its breach of any law or any rights of a third party. 
+   
+1. Shopee Mall Refunds and Return Policy 
+  
+1.1 Mall Buyer may apply for a refund and/or return of an item purchased on Shopee Mall (a 
+“Mall Item”) by completing a return/refund request and returning the Mall Item as 
+described below at any time within fifteen (15) calendar days after the date that Mall Item 
+was first made available for Mall Buyer to take delivery (the “Free Return Period”). Usually, 
+that date would be the date Mall Buyer received delivery of the Mall Item; however, if Mall 
+Buyer did not receive the Mall Item because of Mall Buyer’s absence from the destination 
+address or Mall Buyer’s failure to input the proper destination address, that date would be 
+the date on which delivery attempt was first made. 
+  
+1.2 Please note that Mall Buyer must ship the Mall Item to a location designated by Shopee 
+within ten (10) calendar days after the return request is raised and in any event no later 
+than the last day of the Free Return Period. Mall Items that are returned may be returned via 
+Singpost, PopStation or a courier designated by Shopee by no later than the last day of the 
+Free Return Period. Shopee reserves the right to reject any application where the Mall Item 
+was dispatched later than ten (10) calendar days after the return request is raised. 
+  
+1.3 The approval of your request for refund and return will be made by Shopee in its sole
+
+[DOCUMENT BREAK]
+
+e) The Item received is an expired product; 
+f) The Item received is a counterfeit product; 
+g) The Item received has physical damage that was sustained during the delivery process 
+(e.g shattered/broken Items, scratches/dents, damaged outer packaging, spilled 
+liquid/contents); 
+h) By way of private agreement with Seller and Seller must send his/her confirmation to 
+Shopee confirming such agreement; and 
+i) The item is in its original/sealed condition provided that: 
+  
+i. The Items listed by Shopee at [Return Refund] I want to return item in original/sealed 
+condition shall not be eligible. 
+  
+ii. Refunds and/or returns of Mall Items shall be governed by the Shopee Mall Terms of 
+Service in addition to this Refunds and Return Policy; 
+  
+iii. Where applicable, Items must be returned to Seller: (a) in original packaging, (b) with 
+original tags/labels attached, (c) new, sealed, and with no signs of usage (i.e. no stains, 
+damages or signs of washing), (d) containing all Items, as sent by Seller, including all free 
+gifts; and (e) in compliance with any other criteria determined by Shopee from time to time; 
+and 
+  
+iv. Such refund and/or return is subject to conditions and exclusions, as determined by 
+Shopee from time to time, at its sole discretion. 
+Buyer’s application must be submitted via the Shopee mobile app in accordance with 
+Section 2.1 or 2.2 (as the case may be). 
+  
+In the event where Buyer has commenced legal action against Seller, Buyer may provide 
+the formal notification from the appropriate authority to Shopee to request Shopee to 
+continue to hold the purchase monies until a formal determination is available. Shopee 
+will, at its sole and absolute discretion, determine whether it is necessary to continue to 
+hold such purchase monies.",1,0.8000000000000002,0.9088044451236813
+4,"In the context of Shopee's return and refund policies, how does the condition of the returned Item affect the liability of the Seller for shipping fees, and what are the specific requirements for the Item to be eligible for a return under the 'Return Item in Original/Sealed Condition' policy?","['<1-hop>\n\nOffline Disputes. If Shopee upholds Korean Seller's appeal, it will disburse all or part of the \npurchase monies to Korean Seller. Korean Seller acknowledges and agrees that Shopee's \ndecision is final, conclusive and binding, and covenants and agrees that it will not bring suit \nor otherwise assert any claim against Shopee or its affiliates in relation to such decision. \nKorean Sellers acknowledges and agrees that (i) the returned Item will not be shipped back \nto Korean Seller; (ii) Shopee reserves the right to dispose of such returned Item in any \nmanner it sees fit; and (iii) Korean Seller shall be deemed to have forfeited all rights to such \nreturned Item. \n  \nCondition of Returning Item \n  \nTo enjoy a hassle-free experience when returning the Item, Buyer should ensure that the \nItem, including any complimentary items such as accessories that come with the Item, \nmust be returned to Seller in the condition received by Buyer on delivery. We will \nrecommend Buyer to take a photo of the Item upon receipt. \n  \n5. Liability for Item Forward Shipping Fee and Return Shipping Fee \n  \n(i) Seller Fault Reasons: In the event that Shopee approves (at its sole discretion) a refund \nand/or return request for reasons that are attributable to Seller (as set out in Sections \n2(ii)(a) to 2(ii)(f) above), Seller shall bear both (A) (if applicable) the total fees payable to the \ndelivery company(ies) for returning the relevant Item(s) from Buyer to Shopee's designated \nlocation, and from such location to the Seller (the 'Return Shipping Fee'), in addition to (B) \nthe Seller's portion and the Buyer's portion of the regular Shipping Fee (as defined in the \nTerms of Service) for the initial delivery of the Item(s) to the Buyer ('Forward Shipping Fee'). \n  \n(ii) Non-Seller Fault Reasons: In the event that Shopee approves (at its sole discretion) a \nrefund and/or return request for reasons that are not attributable to Seller (as set out in \nSections 2(i) and 2(ii) (g)/(h), Seller shall not be liable to bear any Forward Shipping Fee or \n(if applicable) Return Shipping Fee.', '<2-hop>\n\n7. Communication Between Buyer and Seller \n  \nShopee encourages Users to communicate with each other in the event where a problem \narises in a transaction. As Shopee is a platform for Users to conduct trading, Buyer should \ncontact Seller directly for any issue relating to the Item purchased. \n \n [Return Refund] I want to return item in original/sealed condition \nFormerly known as Change of Mind, buyers may request for returns due to a change in their \nneed or preference, without any error, fault or defect in the product purchased. Learn more \nabout our 'Return Item in Original/Sealed Condition' policy below.  \nNote \n' If you are looking for Return/Refund due to other reasons (e.g. \nfaulty/damaged/missing deliveries, etc.), you may raise a Return/Refund request or \ncontact our Customer Support team for further assistance. \n' Items purchased on bundle deals may not be returned partially and must be \nreturned as a complete bundle. \n \n \n1. Return Conditions \n  \nAll returns requested under 'I want to return item in original/ sealed condition' are subject \nto conditions and exclusions as determined by Shopee from time to time, at its sole \ndiscretion.  \n  \nThe item(s): \n' in its original packaging (special packaging only*) \n' in complete condition and have no missing parts (with original free gifts, accessories \nincluded) \n' have its original tags/labels attached and its serial numbers present (if applicable)']","The condition of the returned Item significantly affects the liability of the Seller for shipping fees. If Shopee approves a refund or return request due to Seller fault, the Seller is liable to bear both the Forward Shipping Fee and the Return Shipping Fee. However, if the approval is due to non-Seller fault reasons, the Seller is not liable for these fees. For the Item to be eligible for a return under the 'Return Item in Original/Sealed Condition' policy, it must be returned in its original packaging, in complete condition with all parts and original free gifts, accessories included, and with original tags/labels attached and serial numbers present (if applicable).",,,,multi_hop_specific_query_synthesizer,agent,"I'm trying to return an order that I have received under the ""Return Item in Original/Sealed Condition"" policy. I want to know exactly what condition the item must be in for the return to be eligible'","For a return to be eligible under the ""Return Item in Original/Sealed Condition"" policy, the item must be returned in its original packaging, in complete condition with all parts and original free gifts, accessories included, and with original tags/labels attached and serial numbers present (if applicable).",agent,"The item must be in its original and sealed condition with no signs of usage, such as stains, wear, damage, or washing. It must also be in its original packaging (including special packaging if applicable), have all original parts and accessories included, and retain its original tags or labels. Additionally, the item must not have been installed, assembled, or used in any way. These conditions apply specifically to returns requested under the ""Return Item in Original/Sealed Condition"" policy.","• not damaged or in unsellable condition because of customer actions, negligence, 
+misuse, alterations or tampering 
+• must not be installed / assembled / in used condition 
+• not mystery boxes, brand boxes, surprise boxes 
+• not custom or made-to-order products or pre-order products 
+• not virtual goods (e.g. e-vouchers) 
+• not precious metals (e.g. gold, silver, etc.) & gems (e.g. diamonds, emeralds, etc.) 
+• not classified as hazardous material or uses flammable liquids/gases 
+• not classified as an intimate or innerwear (for health and hygiene reasons) 
+• not listed in the “non-returnable” products exclusion lists  
+  
+Note 
+*Special packaging refers to packaging that is unique to the product or brand and is not 
+generically replaceable, i.e. has the brand logo, name, or specialised printing on it. 
+  
+In addition to the above guidelines, the eligibility of the return also considers the product’s 
+condition as outlined in the table below. 
+  
+The list of conditions mentioned above is non-exhaustive and applies only for returns 
+requested under “I want to return item in original/ sealed condition"" . They do not apply to 
+items that are returned because they are faulty or damaged upon receipt.  
+  
+Category Type: Fashion + Selected Lifestyle 
+Sub-Category Group: All Fashion 
+Condition of the Product(s): No signs of usage (i.e. not stained, worn, damaged, or 
+washed). 
+ 
+Category Type: Fashion + Selected Lifestyle
+
+[DOCUMENT BREAK]
+
+7. Communication Between Buyer and Seller 
+  
+Shopee encourages Users to communicate with each other in the event where a problem 
+arises in a transaction. As Shopee is a platform for Users to conduct trading, Buyer should 
+contact Seller directly for any issue relating to the Item purchased. 
+ 
+ [Return Refund] I want to return item in original/sealed condition 
+Formerly known as Change of Mind, buyers may request for returns due to a change in their 
+need or preference, without any error, fault or defect in the product purchased. Learn more 
+about our ‘Return Item in Original/Sealed Condition’ policy below.  
+Note 
+• If you are looking for Return/Refund due to other reasons (e.g. 
+faulty/damaged/missing deliveries, etc.), you may raise a Return/Refund request or 
+contact our Customer Support team for further assistance. 
+• Items purchased on bundle deals may not be returned partially and must be 
+returned as a complete bundle. 
+ 
+ 
+1. Return Conditions 
+  
+All returns requested under “I want to return item in original/ sealed condition” are subject 
+to conditions and exclusions as determined by Shopee from time to time, at its sole 
+discretion.  
+  
+The item(s): 
+• in its original packaging (special packaging only*) 
+• in complete condition and have no missing parts (with original free gifts, accessories 
+included) 
+• have its original tags/labels attached and its serial numbers present (if applicable)
+
+[DOCUMENT BREAK]
+
+e) The Item received is an expired product; 
+f) The Item received is a counterfeit product; 
+g) The Item received has physical damage that was sustained during the delivery process 
+(e.g shattered/broken Items, scratches/dents, damaged outer packaging, spilled 
+liquid/contents); 
+h) By way of private agreement with Seller and Seller must send his/her confirmation to 
+Shopee confirming such agreement; and 
+i) The item is in its original/sealed condition provided that: 
+  
+i. The Items listed by Shopee at [Return Refund] I want to return item in original/sealed 
+condition shall not be eligible. 
+  
+ii. Refunds and/or returns of Mall Items shall be governed by the Shopee Mall Terms of 
+Service in addition to this Refunds and Return Policy; 
+  
+iii. Where applicable, Items must be returned to Seller: (a) in original packaging, (b) with 
+original tags/labels attached, (c) new, sealed, and with no signs of usage (i.e. no stains, 
+damages or signs of washing), (d) containing all Items, as sent by Seller, including all free 
+gifts; and (e) in compliance with any other criteria determined by Shopee from time to time; 
+and 
+  
+iv. Such refund and/or return is subject to conditions and exclusions, as determined by 
+Shopee from time to time, at its sole discretion. 
+Buyer’s application must be submitted via the Shopee mobile app in accordance with 
+Section 2.1 or 2.2 (as the case may be). 
+  
+In the event where Buyer has commenced legal action against Seller, Buyer may provide 
+the formal notification from the appropriate authority to Shopee to request Shopee to 
+continue to hold the purchase monies until a formal determination is available. Shopee 
+will, at its sole and absolute discretion, determine whether it is necessary to continue to 
+hold such purchase monies.
+
+[DOCUMENT BREAK]
+
+Note 
+The final approval of the Return/Refund request will be made by Shopee and shall be 
+subject to your compliance with such conditions. Shopee is not obliged to accept returns 
+outside of the specified return window or for items that do not comply with the policy. 
+  
+For purchases from Apple Flagship Store 
+All Macbooks and iMac products from Apple Flagship Store (apple.flagshipstore) are not 
+eligible for returns requested under “I want to return item in original/ sealed condition"" . 
+  
+2. Product Exclusion List  
+Due to hygiene and safety reasons, products that fall under these categories are not 
+eligible for return under the reason:  “I want to return item in original/ sealed condition"" .  
+  
+I. Fashion Categories 
+ Category: Fashion Accessories 
+Sub-Category: Investment Precious Metals 
+Items: Platinum & Carat Gold, Silver, Diamond, Jade, Other Precious metal/jewellery. 
+ 
+Category: Men Clothes 
+Sub-Category: Innerwear & Underwear 
+Items: Underwear, Undershirt, Thermal Innerwear, Sock. 
+ 
+Category: Men Clothes 
+Sub-Category: Sportswear Apparel 
+Items: Swimming Attire & intimate sportswear. 
+ 
+Category: Women Clothes
+
+Sub-Category: Lingerie & Underwear 
+Items: Lingerie Sets, Bras, Panties, Thermal Innerwear, Bra accessories, Shapewear, Safety 
+pants, Sexy lingerie. 
+ 
+Category: Women Clothes 
+Sub-Category: Maternity Wear 
+Items: Nursing Bras, Maternity Dresses, Maternity Tops, Breastfeeding Wear, Maternity 
+Sets, Maternity Bottoms. 
+ 
+Category: Women Clothes 
+Sub-Category: Socks & Stockings 
+Items: Socks, Pantyhose. 
+ 
+Category: Women Clothes 
+Sub-Category: Sportswear Apparel 
+Items: Swimming Attire, Sports Bra & other intimate sportswear. 
+ 
+Category: Muslim Fashion 
+Sub-Category: Women Muslim Wear 
+Items: Muslimah Swimwear. 
+ 
+Category: Baby & Kids Fashion 
+Sub-Category: Baby Clothes 
+Items: Swimwear. 
+ 
+Category: Baby & Kids Fashion 
+Sub-Category: Baby & Kids Accessories
+
+[DOCUMENT BREAK]
+
+Definition: User has not removed the item packaging and wants to return the item in its 
+original packaging or condition. 
+ 
+ 
+3. Can I still raise a Return/Refund request if I have clicked on the “Order Received” 
+button? 
+  
+If you have clicked on the “Order Received” button, you may refer to the steps below to 
+raise a Return/Refund request: 
+  
+Order is still within the Return/Refund period  
+ 
+• You may raise a Return/Refund request via the App. 
+  
+Order is after the Return/Refund period  
+• You may reach out to the seller personally through Shopee Chat. 
+• Alternatively, you may write to us by contacting Shopee Customer Service. The 
+Shopee agent will review the case and offer a possible solution(s) to resolve the 
+matter.  
+  
+4. How do you check on the status of your Return/Refund request? 
+  
+To check on the status of your Return/Refund request:  
+• Go to the Me tab. 
+• Select Return/Refund under My Purchases to see all your Return/Refund requests. 
+• Select the order you wish to check. 
+• Select Discuss to check your latest Return/Refund status.
+
+5. Can I raise a Return/Refund request for perishable items? 
+  
+Perishable goods are products that have short shelf life and may deteriorate quickly due to 
+environmental factors (e.g. temperature, humidity). Examples include fresh produce, baked 
+goods, cooked food, live products, and chilled or frozen products. 
+  
+You may raise a refund request as per usual for perishable goods. However, please take 
+note of the following conditions that apply to perishable goods before raising a 
+Return/Refund request:  
+ 
+  
+• Due to their nature, perishable goods cannot be returned. 
+• Therefore, when you raise a Return/Refund request, your request will be considered 
+for a refund only.  
+• Perishable goods are not eligible to be returned under ""Return in original/ sealed 
+condition return due to the nature of the product. For more details, visit this link.  
+  
+6. What should I do if I have not received an order that is shown as Delivered?  
+  
+If you have yet to receive your order even though the order status has been updated as 
+Delivered, you should:  
+  
+1. Check with your family members or neighbours  
+• Your family or neighbours might have received the parcel on your behalf.",1,1.0,0.9062020847616624
+5,"How can I raise a return/refund request on the Shopee app, and what are the steps to contact Shopee customer service if needed?","['<1-hop>\n\nFurther Details: If your Mari Savings Account has reached the maximum amount of deposit, \na refund will be credited to your ShopeePay wallet or other linked bank account with \nShopee. \n \nPayment Method: Mari Credit Card Instant Checkout \nRefund Destination: Mari Credit Card \nRefund Timeline: Instantly \nFurther Details: The refund will be displayed as another transaction in your Mari Credit \nCard transaction history. The amount to be refunded will be used to pay off your current \nMari Credit Card outstanding due amount, if any. Any excess refunds will be credited as an \noverpayment and can be used to pay off your next Mari Credit Card statement. \n \n \n[Return Refund] Raising Return & Refund request \n1. When can I raise a Return/Refund request? \n  \nTo request a Return/Refund, buyers have to raise a request via the Shopee app within 15 \ndays from the date of delivery for purchases or after the estimated delivery date, whichever \nis earlier.  \n  \nFor full terms and conditions please refer to this link here. \n  \n2. How do I raise a Return/Refund request? \n  \nTo raise a Return/Refund request: \n' Go to the Me tab. \n' Select the order for which you want to make a request. \n' Select Return/Refund.', '<2-hop>\n\nCustomer service] How do I contact Shopee Customer Service? \nNeed help with your order, account, or payment? Our Customer Service team is here to \nassist you. You can reach us directly through the Shopee App using the methods below. \nThere are two ways to get in touch with Shopee Customer Service. \nOption 1 : Live Chat    \nOption 2 : Internet call   \n  \nBefore you contact us ! \nPrepare the following before reaching out to speed up assistance: \n' Screenshots of the issue (if applicable) \n' Ensure you're using the latest version of the Shopee app \n  \n  \n1. Contacting Customer Service via the Shopee App \nOption 1: Live Chat  (Recommended) \nFollow these steps to chat with a Shopee Customer Service agent: \n1. Open the Shopee App. \n2. Tap the Me icon at the bottom right of your screen. \n3. Scroll down and select Chat with Shopee. \n4. Type 'Live Agent' in the chat bar. \n5. Tap Chat with Agent. \n6. Select your role ' Buyer or Seller \n7. Choose your topic or issue to be connected to an agent. \n  \nOption 2: Internet Call  \nIf you prefer to speak with our agents directly, you can contact us through an Internet Call \nin the Shopee App.\n\n1. Open the Shopee App. \n2. Tap the Me icon. \n3. Scroll down and select Help Centre. \n4. Tap Internet Call. \n5. Choose your role ' Buyer or Seller. \n6. Select your inquiry type. \n7. Tap Speak with an Agent \n  \n2. Service Hours \nContact: Live Chat \nAvailability: 24/7, available from Monday to Sunday (including Public Holidays). \n \nContact: Internet Call \nAvailability: 8am'10pm, available from Monday to Sunday (including Public Holidays). \n  \nPsst... here's a pro tip! \nLive Chat is the fastest way to get support. \nPlease ensure you have a stable and reliable internet connection \nbefore                        contacting us via Internet call. \n  \n  \nNote \nYou can check your Ongoing and Closed cases from your Shopee App > Me tab >  Scroll \ndown to Help Center > Scroll down to My Enquiries > Find the case from either All, \nOngoing or Closed tab.']","To raise a return/refund request on the Shopee app, buyers must go to the Me tab, select the order, and then choose Return/Refund. For contacting Shopee customer service, users can use Live Chat or Internet Call through the Shopee app. Live Chat is available 24/7, while Internet Call is available from 8am'10pm, both Monday to Sunday, including public holidays.",,,,multi_hop_specific_query_synthesizer,agent,"I product that I ordered from Shoppee is faulty. I'd like to raise a return and refund request through the Shopee app. Could you please guide me step-by-step on how to do this? If I need to contact Shopee customer service directly for assistance, what is the best way to reach them?","To initiate a return or refund request for your order, you can follow these steps within the Shopee app: go to the Me tab, select your order, and then choose the Return/Refund option. For assistance, you may contact Shopee customer service through Live Chat, which is available 24/7, or via Internet Call, which is available from 8am to 10pm, Monday through Sunday, including public holidays.",agent,"To raise a return and refund request for a faulty product through the Shopee app, follow these steps:
+
+1. Open the Shopee app and go to the **Me** tab.
+2. Select the order for which you want to raise a request.
+3. On the Order Details page, select **Return/Refund**.
+4. Choose the reason for the return, such as **""The item is defective and/or faulty""** (e.g., does not work as intended).
+5. Select the product(s) that are faulty and submit your request.
+
+If the seller offers a full or partial refund, you may accept the offer without returning the product. To negotiate a different refund amount:
+- Select **Discuss** > **Counter** > Enter your proposed refund amount > Select **Confirm**.
+- Both buyer and seller must respond within 24 hours for each counteroffer.
+
+If you cannot reach an agreement, you can proceed with returning the item for a full refund.
+
+To contact Shopee Customer Service for assistance:
+- Open the Shopee app and tap the **Me** icon.
+- Scroll down and select **Chat with Shopee**.
+- Type ""Live Agent"" in the chat bar and tap **Chat with Agent**.
+- Select your role (Buyer or Seller) and choose your issue.
+- Live Chat is available 24/7, and is recommended for faster support. Alternatively, you can use Internet Call from the Help Centre, available from 8am to 10pm daily.","7. What should I do if I receive my order but it is damaged beyond return and my 
+Return/Refund request has been approved by Shopee? 
+  
+If Shopee has approved the Return/Refund request subject to the review of the returned 
+items, but the parcel received is badly damaged and cannot be returned (e.g. shattered 
+glass, soaking wet packages, badly cracked furniture, etc.), please follow the steps below: 
+  
+1. Take pictures/videos of the parcel received 
+• Make sure the internal/external packaging used for the order is photographed along 
+with the damaged item received. 
+• This helps our Shopee team better understand the condition of the item received. 
+Examples of supporting pictures are provided below:  
+2. Submit to Customer Service 
+• You may contact Customer Service and provide all the details required.  
+  
+  
+8. Can I request for an exchange? 
+Shopee does not offer direct exchange between buyers and sellers. If you are not satisfied 
+with the product(s) received, you can raise a Return/Refund request. 
+  
+The seller may offer a full or partial refund before you return the product. If the seller offers 
+a full refund or if you accept the seller's partial refund offer, you will not be required to 
+return the product. 
+   
+To discuss or modify the refund amount proposed by the seller: 
+1. Select Discuss. 
+2. Select Counter. 
+3. At the Counter Refund page, insert your proposed counter refund amount. 
+4. Select Confirm.
+
+[DOCUMENT BREAK]
+
+• Do also check areas where the parcel could have been left by the courier, such as 
+your mailbox, the building's dry riser, or a shoe rack in your lobby, before requesting 
+for a refund.  
+  
+2. Contact the seller  
+• If the seller's own delivery fleet delivered your parcel, please contact the seller 
+directly via Shopee Chat to find out more about the delivery status.  
+  
+3. Raise a refund request 
+ 
+• You may raise a refund request for an order that was not received, as long as it is still 
+within the Return/Refund period. 
+• To raise a Return/Refund request: 
+o Go to the Me tab.  
+o Select the order for which you want to raise a request. 
+o Select Return/Refund on the Order Details page. 
+o Select I didn’t receive my items. 
+o Select the product(s) not received. 
+o Select Parcel not delivered as the reason and submit your request.  
+ 
+ 
+Note 
+• You are not required to submit any evidence for non-receipt cases. 
+• The Solution will automatically be set as Refund Only. 
+• Shopee will review the case and get back to you on the resolution.
+
+[DOCUMENT BREAK]
+
+e) The Item received is an expired product; 
+f) The Item received is a counterfeit product; 
+g) The Item received has physical damage that was sustained during the delivery process 
+(e.g shattered/broken Items, scratches/dents, damaged outer packaging, spilled 
+liquid/contents); 
+h) By way of private agreement with Seller and Seller must send his/her confirmation to 
+Shopee confirming such agreement; and 
+i) The item is in its original/sealed condition provided that: 
+  
+i. The Items listed by Shopee at [Return Refund] I want to return item in original/sealed 
+condition shall not be eligible. 
+  
+ii. Refunds and/or returns of Mall Items shall be governed by the Shopee Mall Terms of 
+Service in addition to this Refunds and Return Policy; 
+  
+iii. Where applicable, Items must be returned to Seller: (a) in original packaging, (b) with 
+original tags/labels attached, (c) new, sealed, and with no signs of usage (i.e. no stains, 
+damages or signs of washing), (d) containing all Items, as sent by Seller, including all free 
+gifts; and (e) in compliance with any other criteria determined by Shopee from time to time; 
+and 
+  
+iv. Such refund and/or return is subject to conditions and exclusions, as determined by 
+Shopee from time to time, at its sole discretion. 
+Buyer’s application must be submitted via the Shopee mobile app in accordance with 
+Section 2.1 or 2.2 (as the case may be). 
+  
+In the event where Buyer has commenced legal action against Seller, Buyer may provide 
+the formal notification from the appropriate authority to Shopee to request Shopee to 
+continue to hold the purchase monies until a formal determination is available. Shopee 
+will, at its sole and absolute discretion, determine whether it is necessary to continue to 
+hold such purchase monies.
+
+[DOCUMENT BREAK]
+
+You are required to respond within 24 hours from the time the seller raised the proposal. 
+If you or the seller accepts the partial refund proposal, you will not be required to return the 
+product(s) and will receive the partial refund amount that was agreed upon. 
+  
+1. Accept the offer  
+• If the seller's proposed partial refund amount is satisfactory, you may accept the 
+offer. The refund will be processed, and no return of the product(s) will be 
+necessary. 
+To accept the offer, select Discuss on the Return/Refund Details page > Select Accept 
+Proposal. 
+  
+2. Negotiate 
+If you wish to negotiate a higher refund amount, you can submit up to three counteroffers. 
+Both buyer and seller must respond within 24 hours for each counteroffer. 
+To propose a counteroffer, select Discuss on the Return/Refund Details page > Select 
+Counter > Enter an amount for counter proposal > Select Confirm. 
+  
+The partial refund negotiation will end if either buyer or seller fails to respond within the set 
+time frame. Buyers will be prompted to return the products for a full refund.  
+  
+3. Reject the offer 
+If you are unable to reach an agreement with the seller, you may select Continue with 
+return > Select OK > Proceed to return your product(s) to Shopee for a full refund. 
+  
+11. What should I do if the seller agrees to a refund, but I no longer need to return the 
+item? 
+  
+If your return request has already been approved, but you and the seller later agree to a 
+partial or full refund without returning the item, please contact Shopee Customer Service
+
+[DOCUMENT BREAK]
+
+1.8 The Refunds and Return Policy for Mall Items described in these Shopee Mall Terms of 
+Service are in addition to the general Refunds and Return Policy described in the Refunds 
+and Return Policy .If there is any inconsistency, the Refunds and Return Policy described in 
+these Shopee Mall Terms of Service will prevail in respect of Mall Items. 
+  
+ Refunds and Return Policy 
+1. Application for Returns/Refunds 
+  
+Subject to the terms and conditions in this Refunds and Return Policy and the Terms of 
+Service, Buyer may apply for return of the purchased items (“Item”) and/or refund. 
+  
+For the avoidance of doubt, an application for a refund and/or return may be made whether 
+prior to or after the expiry of the Shopee Guarantee Period as stated in the Terms of Service. 
+Users may communicate with each other privately to resolve their differences prior, during 
+or after using Shopee Guarantee. 
+  
+2. Application for the Return of an Item 
+  
+Buyer may only apply for 
+(i) the refund of the Item where such Item has not been received by Buyer (“Unreceived 
+Items”), or 
+(ii) the refund and/or return of an Item received by Buyer (“Received Items”) in the following 
+circumstances: 
+a) Buyer received an empty and/or suspicious parcel; 
+b) The Item received was incomplete (missing quantity or accessories); 
+c) Seller has delivered an Item that does not match the agreed specification (e.g. wrong 
+size, colour, etc.) to Buyer; 
+d) The Item was defective and/or faulty (e.g. does not work as intended);
+
+[DOCUMENT BREAK]
+
+7. What should I do if I receive my order but it is damaged beyond return and my 
+Return/Refund request has been approved by Shopee? 
+  
+If Shopee has approved the Return/Refund request subject to the review of the returned 
+items, but the parcel received is badly damaged and cannot be returned (e.g. shattered 
+glass, soaking wet packages, badly cracked furniture, etc.), please follow the steps below: 
+  
+1. Take pictures/videos of the parcel received 
+• Make sure the internal/external packaging used for the order is photographed along 
+with the damaged item received. 
+• This helps our Shopee team better understand the condition of the item received. 
+Examples of supporting pictures are provided below:  
+2. Submit to Customer Service 
+• You may contact Customer Service and provide all the details required.  
+  
+  
+8. Can I request for an exchange? 
+Shopee does not offer direct exchange between buyers and sellers. If you are not satisfied 
+with the product(s) received, you can raise a Return/Refund request. 
+  
+The seller may offer a full or partial refund before you return the product. If the seller offers 
+a full refund or if you accept the seller's partial refund offer, you will not be required to 
+return the product. 
+   
+To discuss or modify the refund amount proposed by the seller: 
+1. Select Discuss. 
+2. Select Counter. 
+3. At the Counter Refund page, insert your proposed counter refund amount. 
+4. Select Confirm.
+
+[DOCUMENT BREAK]
+
+Customer service] How do I contact Shopee Customer Service? 
+Need help with your order, account, or payment? Our Customer Service team is here to 
+assist you. You can reach us directly through the Shopee App using the methods below. 
+There are two ways to get in touch with Shopee Customer Service. 
+Option 1 : Live Chat    
+Option 2 : Internet call   
+  
+Before you contact us ! 
+Prepare the following before reaching out to speed up assistance: 
+• Screenshots of the issue (if applicable) 
+• Ensure you’re using the latest version of the Shopee app 
+  
+  
+1. Contacting Customer Service via the Shopee App 
+Option 1: Live Chat  (Recommended) 
+Follow these steps to chat with a Shopee Customer Service agent: 
+1. Open the Shopee App. 
+2. Tap the Me icon at the bottom right of your screen. 
+3. Scroll down and select Chat with Shopee. 
+4. Type “Live Agent” in the chat bar. 
+5. Tap Chat with Agent. 
+6. Select your role — Buyer or Seller 
+7. Choose your topic or issue to be connected to an agent. 
+  
+Option 2: Internet Call  
+If you prefer to speak with our agents directly, you can contact us through an Internet Call 
+in the Shopee App.
+
+1. Open the Shopee App. 
+2. Tap the Me icon. 
+3. Scroll down and select Help Centre. 
+4. Tap Internet Call. 
+5. Choose your role — Buyer or Seller. 
+6. Select your inquiry type. 
+7. Tap Speak with an Agent 
+  
+2. Service Hours 
+Contact: Live Chat 
+Availability: 24/7, available from Monday to Sunday (including Public Holidays). 
+ 
+Contact: Internet Call 
+Availability: 8am–10pm, available from Monday to Sunday (including Public Holidays). 
+  
+Psst... here’s a pro tip! 
+Live Chat is the fastest way to get support. 
+Please ensure you have a stable and reliable internet connection 
+before                        contacting us via Internet call. 
+  
+  
+Note 
+You can check your Ongoing and Closed cases from your Shopee App > Me tab >  Scroll 
+down to Help Center > Scroll down to My Enquiries > Find the case from either All, 
+Ongoing or Closed tab.
+
+[DOCUMENT BREAK]
+
+• Do also check areas where the parcel could have been left by the courier, such as 
+your mailbox, the building's dry riser, or a shoe rack in your lobby, before requesting 
+for a refund.  
+  
+2. Contact the seller  
+• If the seller's own delivery fleet delivered your parcel, please contact the seller 
+directly via Shopee Chat to find out more about the delivery status.  
+  
+3. Raise a refund request 
+ 
+• You may raise a refund request for an order that was not received, as long as it is still 
+within the Return/Refund period. 
+• To raise a Return/Refund request: 
+o Go to the Me tab.  
+o Select the order for which you want to raise a request. 
+o Select Return/Refund on the Order Details page. 
+o Select I didn’t receive my items. 
+o Select the product(s) not received. 
+o Select Parcel not delivered as the reason and submit your request.  
+ 
+ 
+Note 
+• You are not required to submit any evidence for non-receipt cases. 
+• The Solution will automatically be set as Refund Only. 
+• Shopee will review the case and get back to you on the resolution.
+
+[DOCUMENT BREAK]
+
+Definition: User has not removed the item packaging and wants to return the item in its 
+original packaging or condition. 
+ 
+ 
+3. Can I still raise a Return/Refund request if I have clicked on the “Order Received” 
+button? 
+  
+If you have clicked on the “Order Received” button, you may refer to the steps below to 
+raise a Return/Refund request: 
+  
+Order is still within the Return/Refund period  
+ 
+• You may raise a Return/Refund request via the App. 
+  
+Order is after the Return/Refund period  
+• You may reach out to the seller personally through Shopee Chat. 
+• Alternatively, you may write to us by contacting Shopee Customer Service. The 
+Shopee agent will review the case and offer a possible solution(s) to resolve the 
+matter.  
+  
+4. How do you check on the status of your Return/Refund request? 
+  
+To check on the status of your Return/Refund request:  
+• Go to the Me tab. 
+• Select Return/Refund under My Purchases to see all your Return/Refund requests. 
+• Select the order you wish to check. 
+• Select Discuss to check your latest Return/Refund status.
+
+5. Can I raise a Return/Refund request for perishable items? 
+  
+Perishable goods are products that have short shelf life and may deteriorate quickly due to 
+environmental factors (e.g. temperature, humidity). Examples include fresh produce, baked 
+goods, cooked food, live products, and chilled or frozen products. 
+  
+You may raise a refund request as per usual for perishable goods. However, please take 
+note of the following conditions that apply to perishable goods before raising a 
+Return/Refund request:  
+ 
+  
+• Due to their nature, perishable goods cannot be returned. 
+• Therefore, when you raise a Return/Refund request, your request will be considered 
+for a refund only.  
+• Perishable goods are not eligible to be returned under ""Return in original/ sealed 
+condition return due to the nature of the product. For more details, visit this link.  
+  
+6. What should I do if I have not received an order that is shown as Delivered?  
+  
+If you have yet to receive your order even though the order status has been updated as 
+Delivered, you should:  
+  
+1. Check with your family members or neighbours  
+• Your family or neighbours might have received the parcel on your behalf.
+
+[DOCUMENT BREAK]
+
+7. Communication Between Buyer and Seller 
+  
+Shopee encourages Users to communicate with each other in the event where a problem 
+arises in a transaction. As Shopee is a platform for Users to conduct trading, Buyer should 
+contact Seller directly for any issue relating to the Item purchased. 
+ 
+ [Return Refund] I want to return item in original/sealed condition 
+Formerly known as Change of Mind, buyers may request for returns due to a change in their 
+need or preference, without any error, fault or defect in the product purchased. Learn more 
+about our ‘Return Item in Original/Sealed Condition’ policy below.  
+Note 
+• If you are looking for Return/Refund due to other reasons (e.g. 
+faulty/damaged/missing deliveries, etc.), you may raise a Return/Refund request or 
+contact our Customer Support team for further assistance. 
+• Items purchased on bundle deals may not be returned partially and must be 
+returned as a complete bundle. 
+ 
+ 
+1. Return Conditions 
+  
+All returns requested under “I want to return item in original/ sealed condition” are subject 
+to conditions and exclusions as determined by Shopee from time to time, at its sole 
+discretion.  
+  
+The item(s): 
+• in its original packaging (special packaging only*) 
+• in complete condition and have no missing parts (with original free gifts, accessories 
+included) 
+• have its original tags/labels attached and its serial numbers present (if applicable)",1,1.0,0.6755708538022228
+11,Where is my order currently located in the shipping process?,,,,,,,human,"I placed an order for the wireless earbuds on June 12, order number #87654321, and I'm not sure where it is in the shipping process. Can you please let me know the current status of my shipment and when I can expect it to arrive?",,human,,,1,,
+7,"If the seller agrees to a refund but I no longer need to return the item, what should I do, and how can I contact Shopee Customer Service for further assistance?","[""<1-hop>\n\nYou are required to respond within 24 hours from the time the seller raised the proposal. \nIf you or the seller accepts the partial refund proposal, you will not be required to return the \nproduct(s) and will receive the partial refund amount that was agreed upon. \n  \n1. Accept the offer  \n' If the seller's proposed partial refund amount is satisfactory, you may accept the \noffer. The refund will be processed, and no return of the product(s) will be \nnecessary. \nTo accept the offer, select Discuss on the Return/Refund Details page > Select Accept \nProposal. \n  \n2. Negotiate \nIf you wish to negotiate a higher refund amount, you can submit up to three counteroffers. \nBoth buyer and seller must respond within 24 hours for each counteroffer. \nTo propose a counteroffer, select Discuss on the Return/Refund Details page > Select \nCounter > Enter an amount for counter proposal > Select Confirm. \n  \nThe partial refund negotiation will end if either buyer or seller fails to respond within the set \ntime frame. Buyers will be prompted to return the products for a full refund.  \n  \n3. Reject the offer \nIf you are unable to reach an agreement with the seller, you may select Continue with \nreturn > Select OK > Proceed to return your product(s) to Shopee for a full refund. \n  \n11. What should I do if the seller agrees to a refund, but I no longer need to return the \nitem? \n  \nIf your return request has already been approved, but you and the seller later agree to a \npartial or full refund without returning the item, please contact Shopee Customer Service"", '<2-hop>\n\nCustomer service] How do I contact Shopee Customer Service? \nNeed help with your order, account, or payment? Our Customer Service team is here to \nassist you. You can reach us directly through the Shopee App using the methods below. \nThere are two ways to get in touch with Shopee Customer Service. \nOption 1 : Live Chat    \nOption 2 : Internet call   \n  \nBefore you contact us ! \nPrepare the following before reaching out to speed up assistance: \n' Screenshots of the issue (if applicable) \n' Ensure you're using the latest version of the Shopee app \n  \n  \n1. Contacting Customer Service via the Shopee App \nOption 1: Live Chat  (Recommended) \nFollow these steps to chat with a Shopee Customer Service agent: \n1. Open the Shopee App. \n2. Tap the Me icon at the bottom right of your screen. \n3. Scroll down and select Chat with Shopee. \n4. Type 'Live Agent' in the chat bar. \n5. Tap Chat with Agent. \n6. Select your role ' Buyer or Seller \n7. Choose your topic or issue to be connected to an agent. \n  \nOption 2: Internet Call  \nIf you prefer to speak with our agents directly, you can contact us through an Internet Call \nin the Shopee App.\n\n1. Open the Shopee App. \n2. Tap the Me icon. \n3. Scroll down and select Help Centre. \n4. Tap Internet Call. \n5. Choose your role ' Buyer or Seller. \n6. Select your inquiry type. \n7. Tap Speak with an Agent \n  \n2. Service Hours \nContact: Live Chat \nAvailability: 24/7, available from Monday to Sunday (including Public Holidays). \n \nContact: Internet Call \nAvailability: 8am'10pm, available from Monday to Sunday (including Public Holidays). \n  \nPsst... here's a pro tip! \nLive Chat is the fastest way to get support. \nPlease ensure you have a stable and reliable internet connection \nbefore                        contacting us via Internet call. \n  \n  \nNote \nYou can check your Ongoing and Closed cases from your Shopee App > Me tab >  Scroll \ndown to Help Center > Scroll down to My Enquiries > Find the case from either All, \nOngoing or Closed tab.']","If the seller agrees to a refund but you no longer need to return the item, you should contact Shopee Customer Service for guidance. To contact Shopee Customer Service, you can use the Shopee App by either using Live Chat or Internet Call. For Live Chat, open the Shopee App, tap the Me icon, scroll down and select Chat with Shopee, type 'Live Agent', tap Chat with Agent, select your role as Buyer or Seller, and choose your topic. For Internet Call, open the Shopee App, tap the Me icon, scroll down and select Help Centre, tap Internet Call, choose your role, select your inquiry type, and tap Speak with an Agent. Live Chat is available 24/7, while Internet Call is available from 8am'10pm, Monday to Sunday, including Public Holidays.",,,,multi_hop_specific_query_synthesizer,agent,"I've been requested for a refund for my shoppee order, but I no longer need to return the item since I've already used it. The seller has agreed to issue a refund, but I'm not sure what steps I should take next. Can you please clarify how to proceed and how I can contact Shopee Customer Service for help with this situation?","Since you no longer need to return the item and the seller has agreed to issue a refund, you should contact Shopee Customer Service for guidance on the next steps. You can reach them through the Shopee App by using Live Chat or Internet Call. For Live Chat, open the Shopee App, tap the Me icon, scroll down and select Chat with Shopee, type 'Live Agent', tap Chat with Agent, select your role as Buyer or Seller, and choose your topic. For Internet Call, open the Shopee App, tap the Me icon, scroll down and select Help Centre, tap Internet Call, choose your role, select your inquiry type, and tap Speak with an Agent. Live Chat is available 24/7, while Internet Call is available from 8am to 10pm, Monday to Sunday, including Public Holidays.",agent,"If the seller has agreed to a refund and you no longer need to return the item, you can accept the seller's partial refund proposal without returning the product. To proceed:
+
+1. Go to the Return/Refund Details page on the Shopee app.  
+2. Select ""Discuss"" to communicate with the seller.  
+3. If the proposed amount is acceptable, select ""Accept Proposal."" The refund will be processed immediately, and no return of the item is required.  
+
+If you wish to negotiate a different amount, you can submit up to three counteroffers. Each counteroffer must be responded to within 24 hours by both parties. If no agreement is reached, you may proceed with returning the item for a full refund.  
+
+For further assistance, you can contact Shopee Customer Service directly through the Shopee app under the support section.","You are required to respond within 24 hours from the time the seller raised the proposal. 
+If you or the seller accepts the partial refund proposal, you will not be required to return the 
+product(s) and will receive the partial refund amount that was agreed upon. 
+  
+1. Accept the offer  
+• If the seller's proposed partial refund amount is satisfactory, you may accept the 
+offer. The refund will be processed, and no return of the product(s) will be 
+necessary. 
+To accept the offer, select Discuss on the Return/Refund Details page > Select Accept 
+Proposal. 
+  
+2. Negotiate 
+If you wish to negotiate a higher refund amount, you can submit up to three counteroffers. 
+Both buyer and seller must respond within 24 hours for each counteroffer. 
+To propose a counteroffer, select Discuss on the Return/Refund Details page > Select 
+Counter > Enter an amount for counter proposal > Select Confirm. 
+  
+The partial refund negotiation will end if either buyer or seller fails to respond within the set 
+time frame. Buyers will be prompted to return the products for a full refund.  
+  
+3. Reject the offer 
+If you are unable to reach an agreement with the seller, you may select Continue with 
+return > Select OK > Proceed to return your product(s) to Shopee for a full refund. 
+  
+11. What should I do if the seller agrees to a refund, but I no longer need to return the 
+item? 
+  
+If your return request has already been approved, but you and the seller later agree to a 
+partial or full refund without returning the item, please contact Shopee Customer Service
+
+[DOCUMENT BREAK]
+
+7. What should I do if I receive my order but it is damaged beyond return and my 
+Return/Refund request has been approved by Shopee? 
+  
+If Shopee has approved the Return/Refund request subject to the review of the returned 
+items, but the parcel received is badly damaged and cannot be returned (e.g. shattered 
+glass, soaking wet packages, badly cracked furniture, etc.), please follow the steps below: 
+  
+1. Take pictures/videos of the parcel received 
+• Make sure the internal/external packaging used for the order is photographed along 
+with the damaged item received. 
+• This helps our Shopee team better understand the condition of the item received. 
+Examples of supporting pictures are provided below:  
+2. Submit to Customer Service 
+• You may contact Customer Service and provide all the details required.  
+  
+  
+8. Can I request for an exchange? 
+Shopee does not offer direct exchange between buyers and sellers. If you are not satisfied 
+with the product(s) received, you can raise a Return/Refund request. 
+  
+The seller may offer a full or partial refund before you return the product. If the seller offers 
+a full refund or if you accept the seller's partial refund offer, you will not be required to 
+return the product. 
+   
+To discuss or modify the refund amount proposed by the seller: 
+1. Select Discuss. 
+2. Select Counter. 
+3. At the Counter Refund page, insert your proposed counter refund amount. 
+4. Select Confirm.
+
+[DOCUMENT BREAK]
+
+3. Rights of Non-Mall Sellers 
+  
+This section shall apply to all Sellers other than Mall Sellers (“Non-Mall Sellers”). 
+  
+Shopee’s determination to approve a refund and/or return of an Item pursuant to Section 2 
+above is binding on the relevant Non-Mall Seller. Non-Mall Sellers agree to comply and do 
+all such things as necessary to give effect to a Buyer’s request for a refund or return 
+approved by Shopee. 
+  
+Where Shopee approves any refund or return request that is raised in-app via the dispute 
+resolutions centre (“Online Dispute”) or via webform after the Shopee Guarantee Period 
+has elapsed (“Offline Dispute”), Non-Mall Seller may appeal such decision by contacting 
+Shopee and providing evidence in support of such appeal. Any appeals must be made:(i) in 
+the case of Online Disputes: 
+(where the request relates to a refund without return of the Item) within three (3) days of the 
+date the Buyer is refunded; and (where the request relates to the return and refund of an 
+Item) within the Notification Period mentioned in the “Return Procedure” sub-section 
+below, provided always that any dispute after the Buyer has been refunded may only be 
+raised by Non-Mall Seller as an Offline Dispute; and 
+  
+(ii) in the case of Offline Disputes, within one (1) month of the date the Buyer is refunded.If 
+Shopee upholds Non-Mall Seller’s appeal, it will disburse all or part of the purchase 
+monies to Non-Mall Seller. Non-Mall Seller acknowledges and agrees that Shopee’s 
+decision is final, conclusive and binding, and covenants and agrees that it will not bring suit 
+or otherwise assert any claim against Shopee or its affiliates in relation to such decision. 
+  
+Return Procedure 
+  
+For any refund and return request approved by Shopee, Shopee will notify the Seller by 
+email (“Email Notification”) and organize the delivery of the relevant returned Item to the 
+address provided by the relevant Seller to Shopee in writing for the completion of the 
+refund and return process, so long as such address is in the country in which the relevant
+
+[DOCUMENT BREAK]
+
+7. Communication Between Buyer and Seller 
+  
+Shopee encourages Users to communicate with each other in the event where a problem 
+arises in a transaction. As Shopee is a platform for Users to conduct trading, Buyer should 
+contact Seller directly for any issue relating to the Item purchased. 
+ 
+ [Return Refund] I want to return item in original/sealed condition 
+Formerly known as Change of Mind, buyers may request for returns due to a change in their 
+need or preference, without any error, fault or defect in the product purchased. Learn more 
+about our ‘Return Item in Original/Sealed Condition’ policy below.  
+Note 
+• If you are looking for Return/Refund due to other reasons (e.g. 
+faulty/damaged/missing deliveries, etc.), you may raise a Return/Refund request or 
+contact our Customer Support team for further assistance. 
+• Items purchased on bundle deals may not be returned partially and must be 
+returned as a complete bundle. 
+ 
+ 
+1. Return Conditions 
+  
+All returns requested under “I want to return item in original/ sealed condition” are subject 
+to conditions and exclusions as determined by Shopee from time to time, at its sole 
+discretion.  
+  
+The item(s): 
+• in its original packaging (special packaging only*) 
+• in complete condition and have no missing parts (with original free gifts, accessories 
+included) 
+• have its original tags/labels attached and its serial numbers present (if applicable)
+
+[DOCUMENT BREAK]
+
+e) The Item received is an expired product; 
+f) The Item received is a counterfeit product; 
+g) The Item received has physical damage that was sustained during the delivery process 
+(e.g shattered/broken Items, scratches/dents, damaged outer packaging, spilled 
+liquid/contents); 
+h) By way of private agreement with Seller and Seller must send his/her confirmation to 
+Shopee confirming such agreement; and 
+i) The item is in its original/sealed condition provided that: 
+  
+i. The Items listed by Shopee at [Return Refund] I want to return item in original/sealed 
+condition shall not be eligible. 
+  
+ii. Refunds and/or returns of Mall Items shall be governed by the Shopee Mall Terms of 
+Service in addition to this Refunds and Return Policy; 
+  
+iii. Where applicable, Items must be returned to Seller: (a) in original packaging, (b) with 
+original tags/labels attached, (c) new, sealed, and with no signs of usage (i.e. no stains, 
+damages or signs of washing), (d) containing all Items, as sent by Seller, including all free 
+gifts; and (e) in compliance with any other criteria determined by Shopee from time to time; 
+and 
+  
+iv. Such refund and/or return is subject to conditions and exclusions, as determined by 
+Shopee from time to time, at its sole discretion. 
+Buyer’s application must be submitted via the Shopee mobile app in accordance with 
+Section 2.1 or 2.2 (as the case may be). 
+  
+In the event where Buyer has commenced legal action against Seller, Buyer may provide 
+the formal notification from the appropriate authority to Shopee to request Shopee to 
+continue to hold the purchase monies until a formal determination is available. Shopee 
+will, at its sole and absolute discretion, determine whether it is necessary to continue to 
+hold such purchase monies.",1,1.0,0.5549178258572472
+8,"How does Shopee handle refunds for Credit Card payments, and how does this compare to refunds for ShopeePay?","[""<1-hop>\n\n9. PURCHASE AND PAYMENT \n  \n9.1 Payments for goods purchased on Shopee can be made by using one or more of the \nfollowing payment methods in each country it operates in: \n  \n(i) Credit Card \nCard payments are processed through third-party payment channels and the type of credit \ncards accepted by these payment channels may vary depending on the jurisdiction you are \nin.  \n  \n(ii) Instalment Purchase PlanBuyers may pay via instalment for orders exceeding S$200. \nPayment via instalments are processed through third-party channels. The banks that \ncurrently support instalment plans are UOB, OCBC and DBS.  \n  \n(iii) Other payment methods, including ShopeePay \nBuyers may also link their bank accounts, permitted payment wallets or other permitted \npayment methods on our Site from time to time. \nWhere a Buyer provides consent to Shopee to link or save any payment method to their \nAccount, the Buyer consents to Shopee sharing such payment method information with \nany payment processor, payment gateway, payment facilitator or other payment \nintermediary, channel or service provider for purposes of storing such payment method \ninformation and processing payments using such payment methods. \n  \nShopeePay's services are provided pursuant to the terms, conditions and policies of use of \nservice as determined by ShopeePay. By activating a ShopeePay Account and using \nShopeePay services, you shall agree to the terms, conditions, and policies as determined \nby ShopeePay, and you hereby consent to Shopee sharing your personal data/information \nin Shopee's possession and/or under Shopee's control to ShopeePay for the purpose of \nactivating a ShopeePay Account, and to manage, operate, administer and provide \nShopeePay services to you, and for all related and incidental purposes. The collection, use \nand processing of Users' data is governed by the Shopee Privacy Policy and ShopeePay \nPrivacy Policy, respectively."", ""<2-hop>\n\nPayment Method: ShopeePay \nRefund Destination: ShopeePay \nRefund Timeline: Instantly \nFurther Details: If ShopeePay has yet to be set up, you will be prompted to do so within 72 \nhours for the refunds to be credited. If ShopeePay is not being set up within 72 hours, you \nwill be prompted to add a bank account instead. Your refund will be credited to your bank \naccount within one to three working days and can be used for future purchases or to be \nwithdrawn. \n \nPayment Method: PayNow \nRefund Destination: PayNow \nRefund Timeline: Instantly \nFurther Details: The refund amount should be reflected in the original payment method \nthat you used when paying using PayNow. Thus, please check which Banking App was used \nto scan the PayNow QR code when making payment such as DBS PayLah! Wallet, \nGooglePay, and so on. \n \nPayment Method: eGIRO \nRefund Destination: ShopeePay (i) \nRefund Timeline: Instantly \nFurther Details: Not applicable. \n \nPayment Method: DBS PayLah \nRefund Destination: DBS PayLah \nRefund Timeline: Instantly \nFurther Details: Not applicable. \n \nPayment Method: SPayLater\n\nRefund Destination: ShopeePay \nRefund Timeline: Instantly \nFurther Details: Bill has been charged: the refunded amount will be first used to offset your \nSPayLater's outstanding balance and any excess amount will then be credited to your \nShopeePay. Bill is yet to be charged: the amount will be credited back to your SPayLater's \navailable balance within 24 hours. \n \nPayment Method: Credit/Debit Cards \nRefund Destination: Credit Card \nRefund Timeline: 5-10 working days \nFurther Details: Not applicable. \n \nPayment Method: GooglePay \nRefund Destination: Credit Card \nRefund Timeline: 5-10 working days \nFurther Details: Not applicable. \n \nPayment Method: Apple Pay \nRefund Destination: Credit Card \nRefund Timeline: 5-10 working days \nFurther Details: Not applicable. \n \nPayment Method: Mari Savings Account \nRefund Destination: Mari Savings Account \nRefund Timeline: Instantly""]","Shopee handles refunds for Credit Card payments by crediting the refund back to the original Credit Card, with a refund timeline of 5-10 working days. In contrast, refunds for ShopeePay are processed instantly, with the refund credited directly to the ShopeePay account. If ShopeePay is not set up, the refund will be credited to the linked bank account within one to three working days.",,,,multi_hop_specific_query_synthesizer,agent,"I recently made a purchase on Shopee using my credit card, but I was unsatisfied with the product and have requested a refund. I'm wondering how Shopee handles refunds for credit card payments?",Refunds for credit card payments are typically credited back to the original credit card within 5 to 10 working days.,agent,"Refunds for credit card payments on Shopee are typically processed within 5 to 10 working days and are credited back to the original credit card used for the purchase. If Shopee is unable to refund via the original payment method, a refund may be issued as Shopee vouchers of equivalent value.","Payment Method: ShopeePay 
+Refund Destination: ShopeePay 
+Refund Timeline: Instantly 
+Further Details: If ShopeePay has yet to be set up, you will be prompted to do so within 72 
+hours for the refunds to be credited. If ShopeePay is not being set up within 72 hours, you 
+will be prompted to add a bank account instead. Your refund will be credited to your bank 
+account within one to three working days and can be used for future purchases or to be 
+withdrawn. 
+ 
+Payment Method: PayNow 
+Refund Destination: PayNow 
+Refund Timeline: Instantly 
+Further Details: The refund amount should be reflected in the original payment method 
+that you used when paying using PayNow. Thus, please check which Banking App was used 
+to scan the PayNow QR code when making payment such as DBS PayLah! Wallet, 
+GooglePay, and so on. 
+ 
+Payment Method: eGIRO 
+Refund Destination: ShopeePay (i) 
+Refund Timeline: Instantly 
+Further Details: Not applicable. 
+ 
+Payment Method: DBS PayLah 
+Refund Destination: DBS PayLah 
+Refund Timeline: Instantly 
+Further Details: Not applicable. 
+ 
+Payment Method: SPayLater
+
+Refund Destination: ShopeePay 
+Refund Timeline: Instantly 
+Further Details: Bill has been charged: the refunded amount will be first used to offset your 
+SPayLater's outstanding balance and any excess amount will then be credited to your 
+ShopeePay. Bill is yet to be charged: the amount will be credited back to your SPayLater's 
+available balance within 24 hours. 
+ 
+Payment Method: Credit/Debit Cards 
+Refund Destination: Credit Card 
+Refund Timeline: 5-10 working days 
+Further Details: Not applicable. 
+ 
+Payment Method: GooglePay 
+Refund Destination: Credit Card 
+Refund Timeline: 5-10 working days 
+Further Details: Not applicable. 
+ 
+Payment Method: Apple Pay 
+Refund Destination: Credit Card 
+Refund Timeline: 5-10 working days 
+Further Details: Not applicable. 
+ 
+Payment Method: Mari Savings Account 
+Refund Destination: Mari Savings Account 
+Refund Timeline: Instantly
+
+[DOCUMENT BREAK]
+
+Further Details: If your Mari Savings Account has reached the maximum amount of deposit, 
+a refund will be credited to your ShopeePay wallet or other linked bank account with 
+Shopee. 
+ 
+Payment Method: Mari Credit Card Instant Checkout 
+Refund Destination: Mari Credit Card 
+Refund Timeline: Instantly 
+Further Details: The refund will be displayed as another transaction in your Mari Credit 
+Card transaction history. The amount to be refunded will be used to pay off your current 
+Mari Credit Card outstanding due amount, if any. Any excess refunds will be credited as an 
+overpayment and can be used to pay off your next Mari Credit Card statement. 
+ 
+ 
+[Return Refund] Raising Return & Refund request 
+1. When can I raise a Return/Refund request? 
+  
+To request a Return/Refund, buyers have to raise a request via the Shopee app within 15 
+days from the date of delivery for purchases or after the estimated delivery date, whichever 
+is earlier.  
+  
+For full terms and conditions please refer to this link here. 
+  
+2. How do I raise a Return/Refund request? 
+  
+To raise a Return/Refund request: 
+• Go to the Me tab. 
+• Select the order for which you want to make a request. 
+• Select Return/Refund.
+
+[DOCUMENT BREAK]
+
+a Seller Fault Reason, then an amount equal to the Buyer’s Purchase Monies plus the 
+Return Shipping Fee and the Buyer’s portion of the Forward Shipping Fee, may be debited 
+from the Seller’s Seller Balance; or 
+  
+a Non-Seller Fault Reason, then [an amount equal to the Buyer’s Purchase Monies minus 
+the Seller’s portion of the Forward Shipping Fee] may be debited from the Seller’s Seller 
+Balance. 
+(vi)    For the avoidance of doubt: 
+a. Sections 5(i) to 5(v) above only address the issue of liability and payment flows for the 
+Forward Shipping Fee and/or Return Shipping Fee, and shall not affect Seller’s liability for 
+Transaction Fees and/or any other fees (which shall remain governed by the Shopee 
+Policies). 
+b. Sections 5(i) to 5(v) do not address the issue of compensation for the value of the actual 
+returned and/or returned Item if the Item is not in a returnable condition. Such 
+compensation may be provided if Shopee decides to do so at its sole discretion (including 
+where Shopee determines that the damage or non-delivery of the Item was caused by 
+Shopee’s logistics service provider). 
+c. Sections 5(i) to 5(v) above do not apply in respect of Items that are not delivered by 
+Shopee Supported Logistics Partners. 
+  
+  
+6. Refunds 
+  
+Buyer will only be refunded after Shopee has received the confirmation from Seller that 
+Seller has received the returned Item, unless Shopee has elected to expedite such refund 
+or does not require Buyer to return the Item. In the event where Shopee does not hear from 
+Seller within a specified time, Shopee will be at liberty to refund the applicable sum to 
+Buyer without further notice to Seller. The refund will be made to Buyer’s credit/debit card 
+or designated bank account, whichever is applicable. In the event that a request for a 
+refund has been approved by Shopee and the purchase monies had already been 
+disbursed to Seller, Shopee may deduct the necessary amount from the Seller’s Seller 
+Balance in accordance with the Terms of Service.
+
+[DOCUMENT BREAK]
+
+17.3 Shopee reserves the right to cancel any transaction on the Site and Buyer agrees that 
+Buyer’s sole remedy will be to receive a refund of the Buyer’s Purchase Monies paid into 
+Shopee Guarantee Account. 
+  
+17.4 If you have redeemed Shopee Coin for your transaction and you are successful in 
+obtaining a refund based on Shopee’s Refunds and Return Policy, Shopee shall refund the 
+monies you have actually paid for the item and credit back any redeemed Shopee Coin to 
+your Account separately. 
+  
+17.5 Shopee does not monitor the cancellation, return and refund process for offline 
+payment. 
+  
+17.6 Subject to Section 17.7, refunds to Buyers shall be made via the same payment 
+method used by the Buyer for the original purchase (“Original Payment Method”) within the 
+applicable timeline published from time to time at [Return Refund] Return and refund 
+timeframe (or such other URL or location as may be utilised by Shopee from time to time 
+for such purpose). 
+  
+17.7 In the event that Shopee is unable to effect the refund via the Original Payment 
+Method for any reason whatsoever (including, but not limited to, where the Original 
+Payment Method is no longer valid or cannot be used to receive funds), Buyer 
+acknowledges and agrees that (i) Shopee may effect the refund via the issuance of Shopee 
+vouchers (of equivalent value to the refund amount) in accordance with such timeline as 
+may be determined by Shopee, and (ii) upon issuance of such vouchers, Buyer shall have 
+no further right or claim against Shopee in connection with such refund. 
+    
+20. PURCHASE AND SALE OF ALCOHOL 
+  
+20.1 The purchase and sale of alcoholic products (“Alcohol”) on the Site is permitted by 
+Shopee subject to the terms and conditions of this Section 20. If you are a buyer of Alcohol 
+(“Alcohol Buyer”), you will be deemed to have consented to the terms and conditions in 
+this Section 20 when you purchase Alcohol on the Site. Similarly, if you are an approved
+
+[DOCUMENT BREAK]
+
+was dispatched later than ten (10) calendar days after the return request is raised. 
+  
+1.3 The approval of your request for refund and return will be made by Shopee in its sole 
+discretion after reviewing your completed refund/return request and inspecting the",1,1.0,0.8609564692547541
+10,"What are the specific return/refund policies for Non-Mall Sellers on Shopee, and how do these policies apply to items such as Apple Flagship Store products and items in the fashion categories?","['<1-hop>\n\n3. Rights of Non-Mall Sellers \n  \nThis section shall apply to all Sellers other than Mall Sellers ('Non-Mall Sellers'). \n  \nShopee's determination to approve a refund and/or return of an Item pursuant to Section 2 \nabove is binding on the relevant Non-Mall Seller. Non-Mall Sellers agree to comply and do \nall such things as necessary to give effect to a Buyer's request for a refund or return \napproved by Shopee. \n  \nWhere Shopee approves any refund or return request that is raised in-app via the dispute \nresolutions centre ('Online Dispute') or via webform after the Shopee Guarantee Period \nhas elapsed ('Offline Dispute'), Non-Mall Seller may appeal such decision by contacting \nShopee and providing evidence in support of such appeal. Any appeals must be made:(i) in \nthe case of Online Disputes: \n(where the request relates to a refund without return of the Item) within three (3) days of the \ndate the Buyer is refunded; and (where the request relates to the return and refund of an \nItem) within the Notification Period mentioned in the 'Return Procedure' sub-section \nbelow, provided always that any dispute after the Buyer has been refunded may only be \nraised by Non-Mall Seller as an Offline Dispute; and \n  \n(ii) in the case of Offline Disputes, within one (1) month of the date the Buyer is refunded.If \nShopee upholds Non-Mall Seller's appeal, it will disburse all or part of the purchase \nmonies to Non-Mall Seller. Non-Mall Seller acknowledges and agrees that Shopee's \ndecision is final, conclusive and binding, and covenants and agrees that it will not bring suit \nor otherwise assert any claim against Shopee or its affiliates in relation to such decision. \n  \nReturn Procedure \n  \nFor any refund and return request approved by Shopee, Shopee will notify the Seller by \nemail ('Email Notification') and organize the delivery of the relevant returned Item to the \naddress provided by the relevant Seller to Shopee in writing for the completion of the \nrefund and return process, so long as such address is in the country in which the relevant', '<2-hop>\n\nNote \nThe final approval of the Return/Refund request will be made by Shopee and shall be \nsubject to your compliance with such conditions. Shopee is not obliged to accept returns \noutside of the specified return window or for items that do not comply with the policy. \n  \nFor purchases from Apple Flagship Store \nAll Macbooks and iMac products from Apple Flagship Store (apple.flagshipstore) are not \neligible for returns requested under 'I want to return item in original/ sealed condition"" . \n  \n2. Product Exclusion List  \nDue to hygiene and safety reasons, products that fall under these categories are not \neligible for return under the reason:  'I want to return item in original/ sealed condition"" .  \n  \nI. Fashion Categories \n Category: Fashion Accessories \nSub-Category: Investment Precious Metals \nItems: Platinum & Carat Gold, Silver, Diamond, Jade, Other Precious metal/jewellery. \n \nCategory: Men Clothes \nSub-Category: Innerwear & Underwear \nItems: Underwear, Undershirt, Thermal Innerwear, Sock. \n \nCategory: Men Clothes \nSub-Category: Sportswear Apparel \nItems: Swimming Attire & intimate sportswear. \n \nCategory: Women Clothes\n\nSub-Category: Lingerie & Underwear \nItems: Lingerie Sets, Bras, Panties, Thermal Innerwear, Bra accessories, Shapewear, Safety \npants, Sexy lingerie. \n \nCategory: Women Clothes \nSub-Category: Maternity Wear \nItems: Nursing Bras, Maternity Dresses, Maternity Tops, Breastfeeding Wear, Maternity \nSets, Maternity Bottoms. \n \nCategory: Women Clothes \nSub-Category: Socks & Stockings \nItems: Socks, Pantyhose. \n \nCategory: Women Clothes \nSub-Category: Sportswear Apparel \nItems: Swimming Attire, Sports Bra & other intimate sportswear. \n \nCategory: Muslim Fashion \nSub-Category: Women Muslim Wear \nItems: Muslimah Swimwear. \n \nCategory: Baby & Kids Fashion \nSub-Category: Baby Clothes \nItems: Swimwear. \n \nCategory: Baby & Kids Fashion \nSub-Category: Baby & Kids Accessories']","Non-Mall Sellers on Shopee are required to comply with Shopee's refund and return decisions, which are binding on them. If a refund or return request is approved by Shopee, the Non-Mall Seller must comply and take necessary actions to fulfill the Buyer's request. Appeals can be made within specific timeframes: for Online Disputes, within three days of the Buyer being refunded (for refund-only requests) or within the Notification Period mentioned in the Return Procedure (for return and refund requests). For Offline Disputes, appeals must be made within one month of the Buyer being refunded. If Shopee upholds the appeal, it will disburse the purchase monies to the Non-Mall Seller. Additionally, Shopee's final approval of return/refund requests is subject to the Non-Mall Seller's compliance with the conditions. Certain items, such as Apple Flagship Store products like Macbooks and iMacs, are not eligible for returns under the ""I want to return item in original/ sealed condition"" reason. Similarly, items in specific fashion categories, including Investment Precious Metals, Underwear, Sportswear Apparel, Lingerie, Maternity Wear, Socks, and others, are excluded from returns for hygiene and safety reasons.",,,,multi_hop_abstract_query_synthesizer,agent,"I ordered a iPhone 17 from the Apple Flagship Store on Shopee, and it is still in an original/ sealed condition as I have not opened it. Can I request for a refund and return of this iPhone?","Apple Flagship Store products, such as iPhones, are not eligible for returns under the ""return in original/sealed condition"" reason according to the return and refund policy. ",agent,"The iPhone 17 is not eligible for a refund or return under the ""return in original/sealed condition"" policy because it is a product from Apple Flagship Store, and the policy explicitly states that all MacBooks and iMacs from Apple Flagship Store are not eligible for returns under this condition. Additionally, the return policy specifies that items must meet certain conditions, including being in original packaging, with original tags and no signs of usage. However, since the iPhone 17 falls under a category excluded from such returns, your request for a refund or return will not be approved. Final approval rests with Shopee, which may also consider other conditions or exclusions at its sole discretion.","Note 
+The final approval of the Return/Refund request will be made by Shopee and shall be 
+subject to your compliance with such conditions. Shopee is not obliged to accept returns 
+outside of the specified return window or for items that do not comply with the policy. 
+  
+For purchases from Apple Flagship Store 
+All Macbooks and iMac products from Apple Flagship Store (apple.flagshipstore) are not 
+eligible for returns requested under “I want to return item in original/ sealed condition"" . 
+  
+2. Product Exclusion List  
+Due to hygiene and safety reasons, products that fall under these categories are not 
+eligible for return under the reason:  “I want to return item in original/ sealed condition"" .  
+  
+I. Fashion Categories 
+ Category: Fashion Accessories 
+Sub-Category: Investment Precious Metals 
+Items: Platinum & Carat Gold, Silver, Diamond, Jade, Other Precious metal/jewellery. 
+ 
+Category: Men Clothes 
+Sub-Category: Innerwear & Underwear 
+Items: Underwear, Undershirt, Thermal Innerwear, Sock. 
+ 
+Category: Men Clothes 
+Sub-Category: Sportswear Apparel 
+Items: Swimming Attire & intimate sportswear. 
+ 
+Category: Women Clothes
+
+Sub-Category: Lingerie & Underwear 
+Items: Lingerie Sets, Bras, Panties, Thermal Innerwear, Bra accessories, Shapewear, Safety 
+pants, Sexy lingerie. 
+ 
+Category: Women Clothes 
+Sub-Category: Maternity Wear 
+Items: Nursing Bras, Maternity Dresses, Maternity Tops, Breastfeeding Wear, Maternity 
+Sets, Maternity Bottoms. 
+ 
+Category: Women Clothes 
+Sub-Category: Socks & Stockings 
+Items: Socks, Pantyhose. 
+ 
+Category: Women Clothes 
+Sub-Category: Sportswear Apparel 
+Items: Swimming Attire, Sports Bra & other intimate sportswear. 
+ 
+Category: Muslim Fashion 
+Sub-Category: Women Muslim Wear 
+Items: Muslimah Swimwear. 
+ 
+Category: Baby & Kids Fashion 
+Sub-Category: Baby Clothes 
+Items: Swimwear. 
+ 
+Category: Baby & Kids Fashion 
+Sub-Category: Baby & Kids Accessories
+
+[DOCUMENT BREAK]
+
+e) The Item received is an expired product; 
+f) The Item received is a counterfeit product; 
+g) The Item received has physical damage that was sustained during the delivery process 
+(e.g shattered/broken Items, scratches/dents, damaged outer packaging, spilled 
+liquid/contents); 
+h) By way of private agreement with Seller and Seller must send his/her confirmation to 
+Shopee confirming such agreement; and 
+i) The item is in its original/sealed condition provided that: 
+  
+i. The Items listed by Shopee at [Return Refund] I want to return item in original/sealed 
+condition shall not be eligible. 
+  
+ii. Refunds and/or returns of Mall Items shall be governed by the Shopee Mall Terms of 
+Service in addition to this Refunds and Return Policy; 
+  
+iii. Where applicable, Items must be returned to Seller: (a) in original packaging, (b) with 
+original tags/labels attached, (c) new, sealed, and with no signs of usage (i.e. no stains, 
+damages or signs of washing), (d) containing all Items, as sent by Seller, including all free 
+gifts; and (e) in compliance with any other criteria determined by Shopee from time to time; 
+and 
+  
+iv. Such refund and/or return is subject to conditions and exclusions, as determined by 
+Shopee from time to time, at its sole discretion. 
+Buyer’s application must be submitted via the Shopee mobile app in accordance with 
+Section 2.1 or 2.2 (as the case may be). 
+  
+In the event where Buyer has commenced legal action against Seller, Buyer may provide 
+the formal notification from the appropriate authority to Shopee to request Shopee to 
+continue to hold the purchase monies until a formal determination is available. Shopee 
+will, at its sole and absolute discretion, determine whether it is necessary to continue to 
+hold such purchase monies.
+
+[DOCUMENT BREAK]
+
+7. Communication Between Buyer and Seller 
+  
+Shopee encourages Users to communicate with each other in the event where a problem 
+arises in a transaction. As Shopee is a platform for Users to conduct trading, Buyer should 
+contact Seller directly for any issue relating to the Item purchased. 
+ 
+ [Return Refund] I want to return item in original/sealed condition 
+Formerly known as Change of Mind, buyers may request for returns due to a change in their 
+need or preference, without any error, fault or defect in the product purchased. Learn more 
+about our ‘Return Item in Original/Sealed Condition’ policy below.  
+Note 
+• If you are looking for Return/Refund due to other reasons (e.g. 
+faulty/damaged/missing deliveries, etc.), you may raise a Return/Refund request or 
+contact our Customer Support team for further assistance. 
+• Items purchased on bundle deals may not be returned partially and must be 
+returned as a complete bundle. 
+ 
+ 
+1. Return Conditions 
+  
+All returns requested under “I want to return item in original/ sealed condition” are subject 
+to conditions and exclusions as determined by Shopee from time to time, at its sole 
+discretion.  
+  
+The item(s): 
+• in its original packaging (special packaging only*) 
+• in complete condition and have no missing parts (with original free gifts, accessories 
+included) 
+• have its original tags/labels attached and its serial numbers present (if applicable)
+
+[DOCUMENT BREAK]
+
+1.8 The Refunds and Return Policy for Mall Items described in these Shopee Mall Terms of 
+Service are in addition to the general Refunds and Return Policy described in the Refunds 
+and Return Policy .If there is any inconsistency, the Refunds and Return Policy described in 
+these Shopee Mall Terms of Service will prevail in respect of Mall Items. 
+  
+ Refunds and Return Policy 
+1. Application for Returns/Refunds 
+  
+Subject to the terms and conditions in this Refunds and Return Policy and the Terms of 
+Service, Buyer may apply for return of the purchased items (“Item”) and/or refund. 
+  
+For the avoidance of doubt, an application for a refund and/or return may be made whether 
+prior to or after the expiry of the Shopee Guarantee Period as stated in the Terms of Service. 
+Users may communicate with each other privately to resolve their differences prior, during 
+or after using Shopee Guarantee. 
+  
+2. Application for the Return of an Item 
+  
+Buyer may only apply for 
+(i) the refund of the Item where such Item has not been received by Buyer (“Unreceived 
+Items”), or 
+(ii) the refund and/or return of an Item received by Buyer (“Received Items”) in the following 
+circumstances: 
+a) Buyer received an empty and/or suspicious parcel; 
+b) The Item received was incomplete (missing quantity or accessories); 
+c) Seller has delivered an Item that does not match the agreed specification (e.g. wrong 
+size, colour, etc.) to Buyer; 
+d) The Item was defective and/or faulty (e.g. does not work as intended);
+
+[DOCUMENT BREAK]
+
+Refunds and Return Policy described in these Shopee Mall Terms of Service is referred to 
+as an “Excluded Item” . 
+  
+1.5 Shopee reserves the right to (a) add to or otherwise amend the list of Excluded Items 
+and/or the Return Conditions and (b) amend, terminate or suspend the Refunds and Return 
+Policy described in these Shopee Mall Terms of Service (including the length of the Free 
+Return Period), in each case, at any time in its sole discretion. 
+  
+1.6 Shopee may reject in its sole discretion any returned Mall Item (and the related request 
+for refund and return): 
+  
+•    that is an Excluded Item; 
+•    that does not meet the Return Conditions; or 
+•    if the Mall Item was returned in a manner that does not comply with Section 1.2 above. 
+  
+Please note that Shopee’s determination will be based on the list of terms of conditions in 
+effect at the time of such determination (including the list of Excluded Items, the Return 
+Conditions and the Free Return Period), and therefore pursuant to Section 1.5 above, such 
+list of Excluded Items, the Return Conditions and/or the length of Free Return Period may 
+be different from those in effect at the time Mall Buyer has completed the refund/return 
+request and/or returned the Mall Item. 
+  
+If Shopee rejects a request for refund and return, Shopee will organize the delivery of such 
+Mall Item to the relevant Mall Buyer’s address to which the Mall Item was originally 
+delivered, and Shopee shall be entitled to seek compensation from such Mall Buyer for any 
+costs incurred in delivering the Mall Item back to such Mall Buyer. 
+  
+1.7 Shopee reserves the right to terminate a User’s access to Shopee Mall if it suspects any 
+abuse of the Refunds and Return Policy described in these Shopee Mall Terms of Service 
+and, if Shopee deems appropriate, may also impose penalties (including recovery of any 
+fees or charges incurred as a consequence of such abuse).",1,0.5,0.7563281261806135
+1,What is Shopee Supported Logistics and how does it affect liability for damaged or lost items during delivery?,"['16.3 Shopee may offer Buyers a guaranteed delivery date for eligible products ('Eligible \nProducts'). If an Eligible Product does not arrive on or before the guaranteed delivery date \nas stated in the Order Details page on the Site (""Guarantee Arrival date""), Shopee may issue \na voucher (""Guaranteed On-Time Voucher') to Buyer. Delivery dates shown on the Product \nDetail page are indicative estimates only and Shopee is not responsible for any other \ndelivery date that is not stated in the Order Details page. For Eligible Products, once the \nGuaranteed Arrival Date has passed, Buyers need to claim the Guaranteed On-Time \nVoucher on the Order Details page within 3 days of the expiry of the applicable Shopee \nGuarantee Period (if Buyer does not click 'Order Received') or within 3 days of the date that \nBuyer clicks 'Order Received' , otherwise the voucher will be forfeited. Guaranteed On-\nTime Vouchers cannot be cashed in whole or in part or transferred in any way, are based on \navailability and are subject to the terms and conditions of usage (including validity period) \nas specified by Shopee from time to time. For the avoidance of doubt, Guaranteed On-Time \nVouchers are offered at Shopee's discretion and shall not constitute any admission of \nliability or wrongdoing by Shopee. By using the Guaranteed On-Time Voucher, Buyer \nunconditionally and unequivocably waives, release and discharges Shopee from all \nactions, proceedings, claims and demands whatsoever which Buyer may have in respect of \na failed or late delivery of Eligible Products. \n  \n16.4 Shopee may, at its sole discretion, allow Buyers to extend the collection window for \norders delivered to a locker or SPX Service Point, for an additional fee that is non-\nrefundable. \n  \n16.5 For orders shipped using Shopee Supported Logistics (i.e. third-party logistics \nproviders that have integrated their system with Shopee), users may raise a request to \nShopee under, amongst others, Shopee\'s Refunds and Return Policy for items damaged or \nlost during the course of delivery. For orders not shipped using Shopee Supported \nLogistics, users understand that Seller bears all risk attached to the delivery of the \npurchased item(s) and warrants that he/she has or will obtain adequate insurance \ncoverage for the delivery of the purchased item(s). In the event where the purchased']","Shopee Supported Logistics refers to third-party logistics providers that have integrated their system with Shopee. For orders shipped using Shopee Supported Logistics, users may raise a request to Shopee under Shopee's Refunds and Return Policy for items damaged or lost during delivery. For orders not shipped using Shopee Supported Logistics, the Seller bears all risk attached to the delivery of the purchased item(s).",Shopee Seller Support Specialist,PERFECT_GRAMMAR,SHORT,single_hop_specific_query_synthesizer,agent,"I placed an order for a smartphone on Shopee on June 15, 2026, order number #123456789. The item was marked as ""Shopee Supported Logistics"" during delivery. When it arrived, the phone was cracked and not working. I'm wondering how Shopee Supported Logistics affects my liability or the possibility of a refund or replacement. Does this coverage protect me from having to pay for damages, or does it only cover the shipping cost? I need clarity on whether I'm still responsible for the full cost if the item is damaged, especially since it was delivered under this logistics label.","Shope's Supported Logistics involves third-party logistics providers integrated with Shopee. For items delivered under this label, you may submit a request through Shopee's Refunds and Return Policy if the item is damaged or lost during delivery. In such cases, the responsibility for the item's condition falls under Shopee's handling of the refund or replacement process, rather than being solely the seller's responsibility. However, this coverage does not absolve you from responsibility for damages to the item itself'only the delivery risk is covered under the policy. Since your order was marked as ""Shopee Supported Logistics,"" you are eligible to request a refund or replacement through Shopee's policy, but the full cost of the item may still be applicable if the damage was due to handling or misuse.",agent,"Shopee Supported Logistics does not protect you from liability for damages to the item upon delivery. The policy states that for orders delivered by Shopee Supported Logistics, the Buyer is responsible for the Shipping Fee, and in the event of damage or loss during delivery, Shopee will not be liable for any damage, expense, or cost. Instead, the Buyer and Seller will resolve disputes with the logistics service provider. However, you may raise a refund or return request if the item is damaged, as long as the request is made within 15 days of the delivery status being updated as ""Delivered"" or the expected delivery date passing. Shopee will decide whether to approve the refund or return request in its sole discretion.","a Seller Fault Reason, then an amount equal to the Buyer’s Purchase Monies plus the 
+Return Shipping Fee and the Buyer’s portion of the Forward Shipping Fee, may be debited 
+from the Seller’s Seller Balance; or 
+  
+a Non-Seller Fault Reason, then [an amount equal to the Buyer’s Purchase Monies minus 
+the Seller’s portion of the Forward Shipping Fee] may be debited from the Seller’s Seller 
+Balance. 
+(vi)    For the avoidance of doubt: 
+a. Sections 5(i) to 5(v) above only address the issue of liability and payment flows for the 
+Forward Shipping Fee and/or Return Shipping Fee, and shall not affect Seller’s liability for 
+Transaction Fees and/or any other fees (which shall remain governed by the Shopee 
+Policies). 
+b. Sections 5(i) to 5(v) do not address the issue of compensation for the value of the actual 
+returned and/or returned Item if the Item is not in a returnable condition. Such 
+compensation may be provided if Shopee decides to do so at its sole discretion (including 
+where Shopee determines that the damage or non-delivery of the Item was caused by 
+Shopee’s logistics service provider). 
+c. Sections 5(i) to 5(v) above do not apply in respect of Items that are not delivered by 
+Shopee Supported Logistics Partners. 
+  
+  
+6. Refunds 
+  
+Buyer will only be refunded after Shopee has received the confirmation from Seller that 
+Seller has received the returned Item, unless Shopee has elected to expedite such refund 
+or does not require Buyer to return the Item. In the event where Shopee does not hear from 
+Seller within a specified time, Shopee will be at liberty to refund the applicable sum to 
+Buyer without further notice to Seller. The refund will be made to Buyer’s credit/debit card 
+or designated bank account, whichever is applicable. In the event that a request for a 
+refund has been approved by Shopee and the purchase monies had already been 
+disbursed to Seller, Shopee may deduct the necessary amount from the Seller’s Seller 
+Balance in accordance with the Terms of Service.
+
+[DOCUMENT BREAK]
+
+purchased item(s) and warrants that he/she has or will obtain adequate insurance 
+coverage for the delivery of the purchased item(s). In the event where the purchased 
+item(s) is damaged, lost or failure of delivery during the course of delivery, Users 
+acknowledge and agree that Shopee will not be liable for any damage, expense, cost or 
+fees resulted therefrom and Seller and/or Buyer will reach out to the logistic service 
+provider to resolve such dispute.
+
+[DOCUMENT BREAK]
+
+16.3 Shopee may offer Buyers a guaranteed delivery date for eligible products (“Eligible 
+Products”). If an Eligible Product does not arrive on or before the guaranteed delivery date 
+as stated in the Order Details page on the Site (""Guarantee Arrival date""), Shopee may issue 
+a voucher (""Guaranteed On-Time Voucher”) to Buyer. Delivery dates shown on the Product 
+Detail page are indicative estimates only and Shopee is not responsible for any other 
+delivery date that is not stated in the Order Details page. For Eligible Products, once the 
+Guaranteed Arrival Date has passed, Buyers need to claim the Guaranteed On-Time 
+Voucher on the Order Details page within 3 days of the expiry of the applicable Shopee 
+Guarantee Period (if Buyer does not click “Order Received”) or within 3 days of the date that 
+Buyer clicks “Order Received” , otherwise the voucher will be forfeited. Guaranteed On-
+Time Vouchers cannot be cashed in whole or in part or transferred in any way, are based on 
+availability and are subject to the terms and conditions of usage (including validity period) 
+as specified by Shopee from time to time. For the avoidance of doubt, Guaranteed On-Time 
+Vouchers are offered at Shopee’s discretion and shall not constitute any admission of 
+liability or wrongdoing by Shopee. By using the Guaranteed On-Time Voucher, Buyer 
+unconditionally and unequivocably waives, release and discharges Shopee from all 
+actions, proceedings, claims and demands whatsoever which Buyer may have in respect of 
+a failed or late delivery of Eligible Products. 
+  
+16.4 Shopee may, at its sole discretion, allow Buyers to extend the collection window for 
+orders delivered to a locker or SPX Service Point, for an additional fee that is non-
+refundable. 
+  
+16.5 For orders shipped using Shopee Supported Logistics (i.e. third-party logistics 
+providers that have integrated their system with Shopee), users may raise a request to 
+Shopee under, amongst others, Shopee's Refunds and Return Policy for items damaged or 
+lost during the course of delivery. For orders not shipped using Shopee Supported 
+Logistics, users understand that Seller bears all risk attached to the delivery of the 
+purchased item(s) and warrants that he/she has or will obtain adequate insurance 
+coverage for the delivery of the purchased item(s). In the event where the purchased
+
+[DOCUMENT BREAK]
+
+16.6 For Cross-Border Transaction. Users understand and acknowledge that, where a 
+product listing states that the product will ship from overseas, such product is being sold 
+from a Seller based outside of Singapore, and the importation and exportation of such 
+product is subject to local laws and regulations. Users should familiarise themselves with 
+all import and export restrictions that apply to the designating country. Users acknowledge 
+that Shopee cannot provide any legal advice in this regard and agrees that Shopee shall not 
+bear any risks or liabilities associated with the import and export of such products to 
+Singapore. 
+  
+16.7 Where the Buyer elects to have a purchased item delivered by Shopee Supported 
+Logistics, the fees payable to the relevant delivery company (“Shipping Fee”) shall be borne 
+by the Buyer, Seller and Shopee in such proportions as may be determined by Shopee and 
+published on the Site from time to time.  Shopee shall (i) collect the Buyer’s proportion of 
+the Shipping Fee from the Buyer, (ii) deduct the Seller’s proportion of the Shipping Fee from 
+the Buyer’s Purchase Monies in accordance with Section 12.2, and (iii) pay the total 
+Shipping Fee to the delivery company. 
+  
+16.8 For the avoidance of doubt, any Shopee-supported logistics services provided to 
+Buyers and Sellers for overseas freight of goods from outside of Singapore to destinations 
+within Singapore, as well as onshore logistics services for local freight, are provided or 
+managed by SPX Express Private Limited. 
+  
+17. CANCELLATION, RETURN AND REFUND 
+  
+17.1 Buyer may only cancel his/her order prior to the payment of Buyer’s Purchase Monies 
+into Shopee Guarantee Account. 
+  
+17.2 Buyer may apply for the return of the purchased item and refund, subject to and in 
+accordance with Shopee’s Refunds and Return Policy. Please refer to Shopee’s Refunds 
+and Return Policy for further information.
+
+[DOCUMENT BREAK]
+
+2.1 Received Items 
+  
+Buyer may raise a refund and/or return request up to fifteen (15) days after (i) the day that 
+the status on the Shopee app is updated as “Delivered” (in respect of a Received Item 
+delivered by a third-party logistics partner identified on the Shopee platform as a “Shopee 
+Supported Logistics partner” (“Shopee Supported Logistics Partner”), or (ii) the estimated 
+delivery date (in respect of any other Received Item). Please note that, if required by 
+Shopee, Buyer must (i) select their return shipping method on the Shopee app within three 
+(3) days of being notified to do so, and (ii) ship the Received Item to the applicable return 
+location for the selected return shipping method within seven (7) days after the return 
+shipping method is selected. Non-compliance with such timeline will result in the 
+automatic cancellation of Buyer’s refund and/or return request.  
+  
+2.2 Unreceived Items 
+  
+Buyer may raise a refund request in respect of Unreceived Items: 
+(i) (in respect of Unreceived Items to be delivered by Shopee Supported Logistics Partners) 
+where the expected delivery date has passed or the status of the Unreceived Item on the 
+Shopee app has been updated as ""Delivered"" , but Buyer has not received the Unreceived 
+Item, and 
+  
+(ii) (in respect of other Unreceived Items) at any time after the status of the Unreceived Item 
+on the Shopee app has been updated as having been shipped out. 
+  
+2.3 The approval of Buyer's request for refund and/or return will be made by Shopee in its 
+sole discretion, and shall be subject to your compliance with such conditions as may be 
+specified by Shopee from time to time. Buyer acknowledges and agrees that Shopee’s 
+decision is final, conclusive and binding, and covenants and agrees that it will not bring suit 
+or otherwise assert any claim against Shopee or its affiliates in relation to such decision.",1,0.5714285714285714,0.6785279800399203
+6,"If a user didn't receive their parcel at all, what steps should they take to request a refund based on the Parcel not delivered reason?","['<1-hop>\n\nIf you have selected Received incorrect item(s) you will be able to choose Return/Refund \nreasons below:  \n \nReturn/Refund Reason: Seller sent wrong item (e.g. wrong size, model, colour, variation or \ntotally different product) \nDefinition: Item received is entirely different from the variation ordered. \n \nReturn/Refund Reason: Counterfeit product \nDefinition: Item received is of a well-known/trademarked brand but reveals signs of \nimitation or forgery (e.g. obvious signs of poor workmanship, missing brand labels, \nmisspelled brand name). \n \nIf you have selected Did not receive some/all of the item you will be able to choose from \nthe 3 Return/Refund reasons below:  \n \nReturn/Refund Reason: Missing part of the order \nDefinition: User receives the parcel but missing some items originally ordered (in terms of \nquantity) or lacking specific parts or accessories of the items (including free gifts). \n \nReturn/Refund Reason: Parcel not delivered \nDefinition: User did not receive the parcel at all. \n \nReturn/Refund Reason: Empty Parcel \nDefinition: User receives the parcel but the parcel is either empty (i.e., empty \nbox/packaging with no items inside) or contains low-value, filler items (e.g. stone). \n \nIf you have selected Other you will be able to choose the Return/Refund reasons below: \n \nReturn/Refund reasons: I want to return item in original / sealed condition', ""<2-hop>\n\n' Do also check areas where the parcel could have been left by the courier, such as \nyour mailbox, the building's dry riser, or a shoe rack in your lobby, before requesting \nfor a refund.  \n  \n2. Contact the seller  \n' If the seller's own delivery fleet delivered your parcel, please contact the seller \ndirectly via Shopee Chat to find out more about the delivery status.  \n  \n3. Raise a refund request \n \n' You may raise a refund request for an order that was not received, as long as it is still \nwithin the Return/Refund period. \n' To raise a Return/Refund request: \no Go to the Me tab.  \no Select the order for which you want to raise a request. \no Select Return/Refund on the Order Details page. \no Select I didn't receive my items. \no Select the product(s) not received. \no Select Parcel not delivered as the reason and submit your request.  \n \n \nNote \n' You are not required to submit any evidence for non-receipt cases. \n' The Solution will automatically be set as Refund Only. \n' Shopee will review the case and get back to you on the resolution.""]","If a user didn't receive their parcel at all, they should first check areas where the parcel could have been left by the courier, such as their mailbox, the building's dry riser, or a shoe rack in their lobby. If the parcel is still not found, they should contact the seller directly via Shopee Chat to find out more about the delivery status. Then, they can raise a refund request by going to the Me tab, selecting the order, and choosing Return/Refund. They should select I didn't receive my items, choose the product(s) not received, select Parcel not delivered as the reason, and submit their request. They are not required to submit any evidence for non-receipt cases, and the solution will automatically be set as Refund Only.",,,,multi_hop_specific_query_synthesizer,agent,"I haven't received the parcel at all. The delivery was supposed to be before Sept 20th, but I still haven't gotten it. I'm wondering what steps I need to take to request a refund because the parcel wasn't delivered. Can you please guide me through the process?","We recommend that you first check areas where the parcel might have been left, such as your mailbox, the building's dry riser, or a shoe rack in your lobby. If the parcel is still not found, please contact us directly through Shopee Chat to confirm the delivery status. Once you have confirmed the status, you can raise a refund request by going to the Me tab, selecting your order, and choosing Return/Refund. Select I didn't receive my items, choose the product(s) not received, and select Parcel not delivered as the reason. You do not need to submit any evidence for this case, and the refund will be processed automatically as Refund Only.",agent,"You can request a refund for the parcel that was not delivered because the expected delivery date has passed. To do so, follow these steps:
+
+1. Go to the ""Me"" tab on the Shopee app.  
+2. Select the order for which you want to raise the request.  
+3. On the Order Details page, select ""Return/Refund.""  
+4. Choose ""I didn’t receive my items"" as the reason.  
+5. Select ""Parcel not delivered"" as the specific reason and submit your request.  
+
+Note: You are not required to submit any evidence for non-receipt cases. The system will automatically set the solution as ""Refund Only."" Shopee will review your case and get back to you with the resolution.  
+
+Please be aware that Shopee’s decision on the refund is final and binding.","2.1 Received Items 
+  
+Buyer may raise a refund and/or return request up to fifteen (15) days after (i) the day that 
+the status on the Shopee app is updated as “Delivered” (in respect of a Received Item 
+delivered by a third-party logistics partner identified on the Shopee platform as a “Shopee 
+Supported Logistics partner” (“Shopee Supported Logistics Partner”), or (ii) the estimated 
+delivery date (in respect of any other Received Item). Please note that, if required by 
+Shopee, Buyer must (i) select their return shipping method on the Shopee app within three 
+(3) days of being notified to do so, and (ii) ship the Received Item to the applicable return 
+location for the selected return shipping method within seven (7) days after the return 
+shipping method is selected. Non-compliance with such timeline will result in the 
+automatic cancellation of Buyer’s refund and/or return request.  
+  
+2.2 Unreceived Items 
+  
+Buyer may raise a refund request in respect of Unreceived Items: 
+(i) (in respect of Unreceived Items to be delivered by Shopee Supported Logistics Partners) 
+where the expected delivery date has passed or the status of the Unreceived Item on the 
+Shopee app has been updated as ""Delivered"" , but Buyer has not received the Unreceived 
+Item, and 
+  
+(ii) (in respect of other Unreceived Items) at any time after the status of the Unreceived Item 
+on the Shopee app has been updated as having been shipped out. 
+  
+2.3 The approval of Buyer's request for refund and/or return will be made by Shopee in its 
+sole discretion, and shall be subject to your compliance with such conditions as may be 
+specified by Shopee from time to time. Buyer acknowledges and agrees that Shopee’s 
+decision is final, conclusive and binding, and covenants and agrees that it will not bring suit 
+or otherwise assert any claim against Shopee or its affiliates in relation to such decision.
+
+[DOCUMENT BREAK]
+
+1.8 The Refunds and Return Policy for Mall Items described in these Shopee Mall Terms of 
+Service are in addition to the general Refunds and Return Policy described in the Refunds 
+and Return Policy .If there is any inconsistency, the Refunds and Return Policy described in 
+these Shopee Mall Terms of Service will prevail in respect of Mall Items. 
+  
+ Refunds and Return Policy 
+1. Application for Returns/Refunds 
+  
+Subject to the terms and conditions in this Refunds and Return Policy and the Terms of 
+Service, Buyer may apply for return of the purchased items (“Item”) and/or refund. 
+  
+For the avoidance of doubt, an application for a refund and/or return may be made whether 
+prior to or after the expiry of the Shopee Guarantee Period as stated in the Terms of Service. 
+Users may communicate with each other privately to resolve their differences prior, during 
+or after using Shopee Guarantee. 
+  
+2. Application for the Return of an Item 
+  
+Buyer may only apply for 
+(i) the refund of the Item where such Item has not been received by Buyer (“Unreceived 
+Items”), or 
+(ii) the refund and/or return of an Item received by Buyer (“Received Items”) in the following 
+circumstances: 
+a) Buyer received an empty and/or suspicious parcel; 
+b) The Item received was incomplete (missing quantity or accessories); 
+c) Seller has delivered an Item that does not match the agreed specification (e.g. wrong 
+size, colour, etc.) to Buyer; 
+d) The Item was defective and/or faulty (e.g. does not work as intended);
+
+[DOCUMENT BREAK]
+
+• Do also check areas where the parcel could have been left by the courier, such as 
+your mailbox, the building's dry riser, or a shoe rack in your lobby, before requesting 
+for a refund.  
+  
+2. Contact the seller  
+• If the seller's own delivery fleet delivered your parcel, please contact the seller 
+directly via Shopee Chat to find out more about the delivery status.  
+  
+3. Raise a refund request 
+ 
+• You may raise a refund request for an order that was not received, as long as it is still 
+within the Return/Refund period. 
+• To raise a Return/Refund request: 
+o Go to the Me tab.  
+o Select the order for which you want to raise a request. 
+o Select Return/Refund on the Order Details page. 
+o Select I didn’t receive my items. 
+o Select the product(s) not received. 
+o Select Parcel not delivered as the reason and submit your request.  
+ 
+ 
+Note 
+• You are not required to submit any evidence for non-receipt cases. 
+• The Solution will automatically be set as Refund Only. 
+• Shopee will review the case and get back to you on the resolution.
+
+[DOCUMENT BREAK]
+
+If you have selected Received incorrect item(s) you will be able to choose Return/Refund 
+reasons below:  
+ 
+Return/Refund Reason: Seller sent wrong item (e.g. wrong size, model, colour, variation or 
+totally different product) 
+Definition: Item received is entirely different from the variation ordered. 
+ 
+Return/Refund Reason: Counterfeit product 
+Definition: Item received is of a well-known/trademarked brand but reveals signs of 
+imitation or forgery (e.g. obvious signs of poor workmanship, missing brand labels, 
+misspelled brand name). 
+ 
+If you have selected Did not receive some/all of the item you will be able to choose from 
+the 3 Return/Refund reasons below:  
+ 
+Return/Refund Reason: Missing part of the order 
+Definition: User receives the parcel but missing some items originally ordered (in terms of 
+quantity) or lacking specific parts or accessories of the items (including free gifts). 
+ 
+Return/Refund Reason: Parcel not delivered 
+Definition: User did not receive the parcel at all. 
+ 
+Return/Refund Reason: Empty Parcel 
+Definition: User receives the parcel but the parcel is either empty (i.e., empty 
+box/packaging with no items inside) or contains low-value, filler items (e.g. stone). 
+ 
+If you have selected Other you will be able to choose the Return/Refund reasons below: 
+ 
+Return/Refund reasons: I want to return item in original / sealed condition
+
+[DOCUMENT BREAK]
+
+16.3 Shopee may offer Buyers a guaranteed delivery date for eligible products (“Eligible 
+Products”). If an Eligible Product does not arrive on or before the guaranteed delivery date 
+as stated in the Order Details page on the Site (""Guarantee Arrival date""), Shopee may issue 
+a voucher (""Guaranteed On-Time Voucher”) to Buyer. Delivery dates shown on the Product 
+Detail page are indicative estimates only and Shopee is not responsible for any other 
+delivery date that is not stated in the Order Details page. For Eligible Products, once the 
+Guaranteed Arrival Date has passed, Buyers need to claim the Guaranteed On-Time 
+Voucher on the Order Details page within 3 days of the expiry of the applicable Shopee 
+Guarantee Period (if Buyer does not click “Order Received”) or within 3 days of the date that 
+Buyer clicks “Order Received” , otherwise the voucher will be forfeited. Guaranteed On-
+Time Vouchers cannot be cashed in whole or in part or transferred in any way, are based on 
+availability and are subject to the terms and conditions of usage (including validity period) 
+as specified by Shopee from time to time. For the avoidance of doubt, Guaranteed On-Time 
+Vouchers are offered at Shopee’s discretion and shall not constitute any admission of 
+liability or wrongdoing by Shopee. By using the Guaranteed On-Time Voucher, Buyer 
+unconditionally and unequivocably waives, release and discharges Shopee from all 
+actions, proceedings, claims and demands whatsoever which Buyer may have in respect of 
+a failed or late delivery of Eligible Products. 
+  
+16.4 Shopee may, at its sole discretion, allow Buyers to extend the collection window for 
+orders delivered to a locker or SPX Service Point, for an additional fee that is non-
+refundable. 
+  
+16.5 For orders shipped using Shopee Supported Logistics (i.e. third-party logistics 
+providers that have integrated their system with Shopee), users may raise a request to 
+Shopee under, amongst others, Shopee's Refunds and Return Policy for items damaged or 
+lost during the course of delivery. For orders not shipped using Shopee Supported 
+Logistics, users understand that Seller bears all risk attached to the delivery of the 
+purchased item(s) and warrants that he/she has or will obtain adequate insurance 
+coverage for the delivery of the purchased item(s). In the event where the purchased",1,1.0,0.911530994733947
+9,"What are the conditions under which Shopee may reject a refund or return request, and how does this relate to the Refunds and Return Policy?","['<1-hop>\n\na Seller Fault Reason, then an amount equal to the Buyer's Purchase Monies plus the \nReturn Shipping Fee and the Buyer's portion of the Forward Shipping Fee, may be debited \nfrom the Seller's Seller Balance; or \n  \na Non-Seller Fault Reason, then [an amount equal to the Buyer's Purchase Monies minus \nthe Seller's portion of the Forward Shipping Fee] may be debited from the Seller's Seller \nBalance. \n(vi)    For the avoidance of doubt: \na. Sections 5(i) to 5(v) above only address the issue of liability and payment flows for the \nForward Shipping Fee and/or Return Shipping Fee, and shall not affect Seller's liability for \nTransaction Fees and/or any other fees (which shall remain governed by the Shopee \nPolicies). \nb. Sections 5(i) to 5(v) do not address the issue of compensation for the value of the actual \nreturned and/or returned Item if the Item is not in a returnable condition. Such \ncompensation may be provided if Shopee decides to do so at its sole discretion (including \nwhere Shopee determines that the damage or non-delivery of the Item was caused by \nShopee's logistics service provider). \nc. Sections 5(i) to 5(v) above do not apply in respect of Items that are not delivered by \nShopee Supported Logistics Partners. \n  \n  \n6. Refunds \n  \nBuyer will only be refunded after Shopee has received the confirmation from Seller that \nSeller has received the returned Item, unless Shopee has elected to expedite such refund \nor does not require Buyer to return the Item. In the event where Shopee does not hear from \nSeller within a specified time, Shopee will be at liberty to refund the applicable sum to \nBuyer without further notice to Seller. The refund will be made to Buyer's credit/debit card \nor designated bank account, whichever is applicable. In the event that a request for a \nrefund has been approved by Shopee and the purchase monies had already been \ndisbursed to Seller, Shopee may deduct the necessary amount from the Seller's Seller \nBalance in accordance with the Terms of Service.', '<2-hop>\n\nRefunds and Return Policy described in these Shopee Mall Terms of Service is referred to \nas an 'Excluded Item' . \n  \n1.5 Shopee reserves the right to (a) add to or otherwise amend the list of Excluded Items \nand/or the Return Conditions and (b) amend, terminate or suspend the Refunds and Return \nPolicy described in these Shopee Mall Terms of Service (including the length of the Free \nReturn Period), in each case, at any time in its sole discretion. \n  \n1.6 Shopee may reject in its sole discretion any returned Mall Item (and the related request \nfor refund and return): \n  \n'    that is an Excluded Item; \n'    that does not meet the Return Conditions; or \n'    if the Mall Item was returned in a manner that does not comply with Section 1.2 above. \n  \nPlease note that Shopee's determination will be based on the list of terms of conditions in \neffect at the time of such determination (including the list of Excluded Items, the Return \nConditions and the Free Return Period), and therefore pursuant to Section 1.5 above, such \nlist of Excluded Items, the Return Conditions and/or the length of Free Return Period may \nbe different from those in effect at the time Mall Buyer has completed the refund/return \nrequest and/or returned the Mall Item. \n  \nIf Shopee rejects a request for refund and return, Shopee will organize the delivery of such \nMall Item to the relevant Mall Buyer's address to which the Mall Item was originally \ndelivered, and Shopee shall be entitled to seek compensation from such Mall Buyer for any \ncosts incurred in delivering the Mall Item back to such Mall Buyer. \n  \n1.7 Shopee reserves the right to terminate a User's access to Shopee Mall if it suspects any \nabuse of the Refunds and Return Policy described in these Shopee Mall Terms of Service \nand, if Shopee deems appropriate, may also impose penalties (including recovery of any \nfees or charges incurred as a consequence of such abuse).']","Shopee may reject a refund or return request if the item is an Excluded Item, does not meet the Return Conditions, or was returned in a manner that does not comply with the specified guidelines. These conditions are governed by the Refunds and Return Policy described in the Shopee Mall Terms of Service, which Shopee reserves the right to amend or suspend at its sole discretion. If a request is rejected, Shopee will organize the delivery of the item back to the buyer and may seek compensation for any associated costs.",,,,multi_hop_abstract_query_synthesizer,agent,"I recently  returned my order number 123456789 and requested a full refund for it, but Shopee rejected my request.  Can you clarify the specific criteria under which a return or refund is denied, and whether those conditions are clearly stated in the policy?","Shopee may reject a refund or return request if the item is an Excluded Item, does not meet the Return Conditions, or was returned in a manner that does not comply with the specified guidelines. These criteria are outlined in the Refunds and Return Policy, which is part of the Shopee Mall Terms of Service. Shopee reserves the right to amend or suspend this policy at its sole discretion. If a return or refund request is denied, Shopee will arrange for the return of the item to the buyer and may cover any associated delivery costs.",agent,"A return or refund may be denied if the item is an ""Excluded Item,"" does not meet the Return Conditions, or was returned in a manner that does not comply with the policy. Specific criteria for denial include:
+
+- The item is an expired product;  
+- The item is a counterfeit product;  
+- The item has physical damage sustained during delivery (e.g., shattered, scratched, damaged packaging, spilled contents);  
+- The item was returned in a manner that does not comply with the required conditions (e.g., not in original packaging, missing tags, or showing signs of use);  
+- The item is a digital good, electronic item, perishable product, or item under warranty;  
+- The item falls under categories excluded due to health or hygiene reasons (e.g., cosmetics, swimwear, underwear);  
+- The item was not received by the buyer (unreceived item), or the buyer did not receive a complete or correct item (e.g., missing accessories or wrong size/color).  
+
+Additionally, Shopee reserves the right to amend, terminate, or suspend the refund and return policy at its sole discretion, and the list of excluded items or return conditions may change without notice. Shopee’s decision to reject a return or refund request is final and binding.","Refunds and Return Policy described in these Shopee Mall Terms of Service is referred to 
+as an “Excluded Item” . 
+  
+1.5 Shopee reserves the right to (a) add to or otherwise amend the list of Excluded Items 
+and/or the Return Conditions and (b) amend, terminate or suspend the Refunds and Return 
+Policy described in these Shopee Mall Terms of Service (including the length of the Free 
+Return Period), in each case, at any time in its sole discretion. 
+  
+1.6 Shopee may reject in its sole discretion any returned Mall Item (and the related request 
+for refund and return): 
+  
+•    that is an Excluded Item; 
+•    that does not meet the Return Conditions; or 
+•    if the Mall Item was returned in a manner that does not comply with Section 1.2 above. 
+  
+Please note that Shopee’s determination will be based on the list of terms of conditions in 
+effect at the time of such determination (including the list of Excluded Items, the Return 
+Conditions and the Free Return Period), and therefore pursuant to Section 1.5 above, such 
+list of Excluded Items, the Return Conditions and/or the length of Free Return Period may 
+be different from those in effect at the time Mall Buyer has completed the refund/return 
+request and/or returned the Mall Item. 
+  
+If Shopee rejects a request for refund and return, Shopee will organize the delivery of such 
+Mall Item to the relevant Mall Buyer’s address to which the Mall Item was originally 
+delivered, and Shopee shall be entitled to seek compensation from such Mall Buyer for any 
+costs incurred in delivering the Mall Item back to such Mall Buyer. 
+  
+1.7 Shopee reserves the right to terminate a User’s access to Shopee Mall if it suspects any 
+abuse of the Refunds and Return Policy described in these Shopee Mall Terms of Service 
+and, if Shopee deems appropriate, may also impose penalties (including recovery of any 
+fees or charges incurred as a consequence of such abuse).
+
+[DOCUMENT BREAK]
+
+e) The Item received is an expired product; 
+f) The Item received is a counterfeit product; 
+g) The Item received has physical damage that was sustained during the delivery process 
+(e.g shattered/broken Items, scratches/dents, damaged outer packaging, spilled 
+liquid/contents); 
+h) By way of private agreement with Seller and Seller must send his/her confirmation to 
+Shopee confirming such agreement; and 
+i) The item is in its original/sealed condition provided that: 
+  
+i. The Items listed by Shopee at [Return Refund] I want to return item in original/sealed 
+condition shall not be eligible. 
+  
+ii. Refunds and/or returns of Mall Items shall be governed by the Shopee Mall Terms of 
+Service in addition to this Refunds and Return Policy; 
+  
+iii. Where applicable, Items must be returned to Seller: (a) in original packaging, (b) with 
+original tags/labels attached, (c) new, sealed, and with no signs of usage (i.e. no stains, 
+damages or signs of washing), (d) containing all Items, as sent by Seller, including all free 
+gifts; and (e) in compliance with any other criteria determined by Shopee from time to time; 
+and 
+  
+iv. Such refund and/or return is subject to conditions and exclusions, as determined by 
+Shopee from time to time, at its sole discretion. 
+Buyer’s application must be submitted via the Shopee mobile app in accordance with 
+Section 2.1 or 2.2 (as the case may be). 
+  
+In the event where Buyer has commenced legal action against Seller, Buyer may provide 
+the formal notification from the appropriate authority to Shopee to request Shopee to 
+continue to hold the purchase monies until a formal determination is available. Shopee 
+will, at its sole and absolute discretion, determine whether it is necessary to continue to 
+hold such purchase monies.
+
+[DOCUMENT BREAK]
+
+1.8 The Refunds and Return Policy for Mall Items described in these Shopee Mall Terms of 
+Service are in addition to the general Refunds and Return Policy described in the Refunds 
+and Return Policy .If there is any inconsistency, the Refunds and Return Policy described in 
+these Shopee Mall Terms of Service will prevail in respect of Mall Items. 
+  
+ Refunds and Return Policy 
+1. Application for Returns/Refunds 
+  
+Subject to the terms and conditions in this Refunds and Return Policy and the Terms of 
+Service, Buyer may apply for return of the purchased items (“Item”) and/or refund. 
+  
+For the avoidance of doubt, an application for a refund and/or return may be made whether 
+prior to or after the expiry of the Shopee Guarantee Period as stated in the Terms of Service. 
+Users may communicate with each other privately to resolve their differences prior, during 
+or after using Shopee Guarantee. 
+  
+2. Application for the Return of an Item 
+  
+Buyer may only apply for 
+(i) the refund of the Item where such Item has not been received by Buyer (“Unreceived 
+Items”), or 
+(ii) the refund and/or return of an Item received by Buyer (“Received Items”) in the following 
+circumstances: 
+a) Buyer received an empty and/or suspicious parcel; 
+b) The Item received was incomplete (missing quantity or accessories); 
+c) Seller has delivered an Item that does not match the agreed specification (e.g. wrong 
+size, colour, etc.) to Buyer; 
+d) The Item was defective and/or faulty (e.g. does not work as intended);
+
+[DOCUMENT BREAK]
+
+condition of the Mall Item that was returned. Mall Buyer acknowledges and agrees that 
+Shopee’s decision is final, conclusive and binding, and covenants and agrees that it will not 
+bring suit or otherwise assert any claim against Shopee or its affiliates in relation to such 
+decision. The Mall Item that was returned must be, at a minimum, in the following 
+conditions: 
+•    Complete, with all items included in the purchase; and 
+•    With original product packaging and price tags. 
+  
+If any additional conditions apply to a certain Mall Item, Shopee will inform you via the Site, 
+SMS or email. The conditions for the Mall Items subject to return are referred to as the 
+“Return Conditions” . 
+  
+1.4 In addition, please note that certain types of Mall Items may be excluded from the 
+Refunds and Return Policy described in these Shopee Mall Terms of Service, including but 
+not limited to: 
+  
+•    Electronics; 
+•    Digital goods, such as mobile top-up cards, audio or video recording or software; 
+•    Goods that are perishable or are temperature-sensitive or may otherwise deteriorate or 
+expire rapidly, such as groceries, ice cream;  
+•   Goods that are not suitable for return due to health protection or hygienic reasons, such 
+as cosmetics, swimwear and underwear; and 
+•    Items that are under warranty from the seller, manufacturer and/or distributor, such as 
+phones, laptops, monitors and others. 
+  
+  
+If any Mall Item is excluded from the Refunds and Return Policy described in these Shopee 
+Mall Terms of Service, Shopee will make reasonable efforts to publish that information on 
+our Site or otherwise inform the Mall Buyers; however, please note that our policies may 
+change without notice at any time and certain Mall Items may be subject to exclusion after 
+Mall Buyer has purchased them. Any Mall Item that is subject to exclusion from the
+
+[DOCUMENT BREAK]
+
+(ii) Shopee (via the delivery agent) reserves the right to refuse the delivery of Alcohol if the 
+Alcohol Buyer and/or the Recipient appears intoxicated or is unable to provide valid photo 
+identification for age verification purposes. 
+  
+20.5 Each Alcohol Buyer and Alcohol Seller severally agrees to indemnify, defend and hold 
+harmless Shopee, and its shareholders, subsidiaries, Affiliates, directors, officers, agents, 
+co-branders or other partners, and employees (collectively, the ""Indemnified Parties"") from 
+and against any and all claims, actions, proceedings, and suits and all related liabilities, 
+damages, settlements, penalties, fines, costs and expenses (including, without limitation, 
+any other dispute resolution expenses) incurred by any Indemnified Party arising out of or 
+relating to: (a) any inaccuracy or breach of its representations in Section 20.2 and/or 
+Section 20.3 (as applicable); and (b) its breach of any law or any rights of a third party. 
+   
+1. Shopee Mall Refunds and Return Policy 
+  
+1.1 Mall Buyer may apply for a refund and/or return of an item purchased on Shopee Mall (a 
+“Mall Item”) by completing a return/refund request and returning the Mall Item as 
+described below at any time within fifteen (15) calendar days after the date that Mall Item 
+was first made available for Mall Buyer to take delivery (the “Free Return Period”). Usually, 
+that date would be the date Mall Buyer received delivery of the Mall Item; however, if Mall 
+Buyer did not receive the Mall Item because of Mall Buyer’s absence from the destination 
+address or Mall Buyer’s failure to input the proper destination address, that date would be 
+the date on which delivery attempt was first made. 
+  
+1.2 Please note that Mall Buyer must ship the Mall Item to a location designated by Shopee 
+within ten (10) calendar days after the return request is raised and in any event no later 
+than the last day of the Free Return Period. Mall Items that are returned may be returned via 
+Singpost, PopStation or a courier designated by Shopee by no later than the last day of the 
+Free Return Period. Shopee reserves the right to reject any application where the Mall Item 
+was dispatched later than ten (10) calendar days after the return request is raised. 
+  
+1.3 The approval of your request for refund and return will be made by Shopee in its sole",1,0.6190476190476191,0.5345157836169464
+12,Can I change the delivery address after I've placed my order?,,,,,,,human,"I placed an order for the wireless earbuds on June 15th, order number #78945632. I'm trying to change the delivery address to a different one, but I'm not sure if that's possible after the order has been placed. Can you confirm if I can update the delivery address after my order is confirmed?",,human,,,1,,
+13,How do I apply a promo code during checkout?,,,,,,,human,"I'm trying to apply a promo code at checkout, but I'm not sure how. Can you walk me through the steps so I can use it on my order? I would like to apply the code ""SUMMER2026"" if it's still valid.",,human,,,1,,
+14,Is the product compatible with my current device model?,,,,,,,human,I ordered the Apple Watch Series 9 last week (order #12345678) and I'm wondering if it's compatible with my iPhone 17. I've been trying to set it up but the pairing keeps failing. Can you confirm if this model works with my iPhone?,,human,,,1,,
+15,I can't log in to my account'what should I do?,,,,,,,human,"I'm having trouble logging in to my account. I've tried using my email and password, but I keep getting an error message. I'm not sure if it's a password issue or if my account is locked. Can you help me figure out what's going on or guide me through troubleshooting steps? I need access to my order history and to update my shipping info.",,human,,,1,,

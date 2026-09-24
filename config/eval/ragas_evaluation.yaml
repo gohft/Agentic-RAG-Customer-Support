@@ -1,0 +1,18 @@
+ollama_url: http://localhost:11434
+
+# separator used by customer_support_node to join retrieved docs into a string
+# must match config/graph/customer_support.yaml so context can be split back
+# into individual docs for RAGAS evaluation
+doc_separator: "\n\n[DOCUMENT BREAK]\n\n"
+
+# LLM-as-a-judge for Faithfulness and AnswerCorrectness
+judge_model:
+  model: ollama_chat/qwen3:8b  # need model provider ollama_chat since using litellm
+  parameters:
+    temperature: 0  # deterministic judging
+    num_ctx: 8192  # context window is ragas prompt + question + response + context/reference
+    max_tokens: 8192  # output length, default is 1024, larger since model output verdict for each statement
+# ~ 2000 prompt token, 5 x512 context, QA is each 200
+
+# embedding model used by AnswerCorrectness to score answer similarity
+embedding_model: BAAI/bge-large-en-v1.5
